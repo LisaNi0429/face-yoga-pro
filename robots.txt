@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lisani0429.github.io/face-yoga-pro/sitemap.xml
+
+# Crawl-delay for bots
+Crawl-delay: 1
+
+# Disallow admin areas (if any in future)
+Disallow: /admin/
+Disallow: /private/

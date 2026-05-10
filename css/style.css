@@ -1,10 +1,14 @@
 /* ========================================
    Face Yoga Pro - Main Stylesheet
    Modern, responsive, accessible design
+   Optimized for Core Web Vitals
    ======================================== */
 
 /* CSS Variables */
 :root {
+    /* Content Visibility for Performance */
+    content-visibility: auto;
+    contain-intrinsic-size: 0 500px;
     /* Colors */
     --primary: #6B5B95;
     --primary-light: #8B7BB5;
