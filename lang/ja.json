@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "ホーム",
+    "quiz": "ビューティーガイド",
     "exercises": "顔ヨガ",
     "massage": "マッサージ",
     "jawline": "フェイスライン",
@@ -9,6 +10,7 @@
   "hero": {
     "title": "自然なアンチエイジングは顔ヨガから",
     "subtitle": "科学的に証明された顔マッサージとヨガテクニックで、フェイスラインを引き締め、若々しい輝きを取り戻しましょう",
+    "quizCta": "🧭 ビューティーガイド",
     "cta": "学習を始める"
   },
   "features": {
@@ -82,6 +84,21 @@
     "contact": "お問い合わせ"
   },
   "page": {
+    "quiz": {
+      "title": "ビューティーガイド - Face Yoga Pro",
+      "progress": "ステップ {step} / 5",
+      "step1": { "title": "性別を選択", "subtitle": "性別によって顔の筋肉構造が異なります" },
+      "step2": { "title": "年齢層は？", "subtitle": "年齢によって肌のニーズが異なります" },
+      "step3": { "title": "改善したい悩みは？", "subtitle": "複数選択可、あなたに合ったプランを作成します" },
+      "step4": { "title": "1日にどれくらい時間を使えますか？", "subtitle": "スケジュールに合わせてエクササイズをご提案" },
+      "step5": { "title": "主な目標は？", "subtitle": "あなたの期待に最も合うオプションを選択" },
+      "gender": { "female": "女性", "male": "男性" },
+      "concern": { "wrinkles": "シワ・小じわ", "sagging": "たるみ", "doubleChin": "二重あご", "jawline": "フェイスライン", "eyeBags": "目の下のクマ・たるみ", "foreheadLines": "額のシワ" },
+      "time": { "min5": "5分", "min5Desc": "手軽に", "min10": "10分", "min10Desc": "おすすめ", "min15": "15分", "min15Desc": "しっかり", "min20": "20分以上", "min20Desc": "本格的に" },
+      "goal": { "antiAging": "アンチエイジング", "antiAgingDesc": "エイジングケア", "contouring": "リフトアップ", "contouringDesc": "輪郭を整える", "relaxation": "リラックス", "relaxationDesc": "顔の緊張をほぐす", "radiance": "輝き", "radianceDesc": "肌トーン改善" },
+      "nav": { "prev": "前へ", "next": "次へ", "seeResults": "結果を見る" },
+      "results": { "title": "あなた専用プランが完成！", "subtitle": "あなたのニーズに基づいたおすすめエクササイズ", "yourProfile": "あなたのプロフィール", "match": "マッチ", "startNow": "今すぐ始める", "retake": "やり直す" }
+    },
     "exercises": {
       "title": "フェイスヨガエクササイズ",
       "subtitle": "科学的に設計された顔筋トレーニングで、自然なアンチエイジング",

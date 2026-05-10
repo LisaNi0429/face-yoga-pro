@@ -8,7 +8,8 @@
   },
   "hero": {
     "title": "Natural Anti-Aging Starts with Face Yoga",
-    "subtitle": "Scientifically proven facial massage and yoga techniques to lift your jawline and restore youthful radiance",
+    "subtitle": "Scientifically verified facial massage and yoga techniques to define your jawline and restore youthful radiance",
+    "quizCta": "🧭 Beauty Guide",
     "cta": "Start Learning"
   },
   "features": {
@@ -82,6 +83,75 @@
     "contact": "Contact Us"
   },
   "page": {
+    "quiz": {
+      "title": "Beauty Guide - Face Yoga Pro",
+      "progress": "Step {step} of 5",
+      "step1": {
+        "title": "Select Your Gender",
+        "subtitle": "Facial muscle structure varies by gender"
+      },
+      "step2": {
+        "title": "What's Your Age Range?",
+        "subtitle": "Skin needs differ by age"
+      },
+      "step3": {
+        "title": "What Do You Want to Improve?",
+        "subtitle": "Select multiple, we'll customize your plan"
+      },
+      "step4": {
+        "title": "How Much Time Can You Commit?",
+        "subtitle": "We'll match exercises to your schedule"
+      },
+      "step5": {
+        "title": "What's Your Primary Goal?",
+        "subtitle": "Choose the option that best fits your expectations"
+      },
+      "gender": {
+        "female": "Female",
+        "male": "Male"
+      },
+      "concern": {
+        "wrinkles": "Wrinkles & Fine Lines",
+        "sagging": "Facial Sagging",
+        "doubleChin": "Double Chin",
+        "jawline": "Undefined Jawline",
+        "eyeBags": "Eye Bags & Dark Circles",
+        "foreheadLines": "Forehead Lines"
+      },
+      "time": {
+        "min5": "5 minutes",
+        "min5Desc": "Quick results",
+        "min10": "10 minutes",
+        "min10Desc": "Recommended",
+        "min15": "15 minutes",
+        "min15Desc": "Deep practice",
+        "min20": "20+ minutes",
+        "min20Desc": "Full care"
+      },
+      "goal": {
+        "antiAging": "Anti-Aging",
+        "antiAgingDesc": "Delay signs of aging",
+        "contouring": "Contouring & Lifting",
+        "contouringDesc": "Define facial structure",
+        "relaxation": "Relaxation",
+        "relaxationDesc": "Release facial tension",
+        "radiance": "Radiance",
+        "radianceDesc": "Improve skin tone"
+      },
+      "nav": {
+        "prev": "Previous",
+        "next": "Next",
+        "seeResults": "See Results"
+      },
+      "results": {
+        "title": "Your Personalized Plan is Ready!",
+        "subtitle": "Based on your needs, we recommend these exercises",
+        "yourProfile": "Your Profile",
+        "match": "Match",
+        "startNow": "Start Practicing Now",
+        "retake": "Retake Quiz"
+      }
+    },
     "exercises": {
       "title": "Face Yoga Exercises",
       "subtitle": "Scientifically designed facial muscle training for natural anti-aging",

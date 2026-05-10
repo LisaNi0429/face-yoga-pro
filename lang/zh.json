@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "首页",
+    "quiz": "美丽导航",
     "exercises": "脸部瑜伽",
     "massage": "按摩手法",
     "jawline": "下颌线提升",
@@ -9,6 +10,7 @@
   "hero": {
     "title": "自然抗衰老，从脸部瑜伽开始",
     "subtitle": "科学验证的脸部按摩与瑜伽技巧，帮助您提升下颌线，焕发年轻光彩",
+    "quizCta": "🧭 美丽导航",
     "cta": "开始学习"
   },
   "features": {
@@ -82,6 +84,75 @@
     "contact": "联系我们"
   },
   "page": {
+    "quiz": {
+      "title": "美丽导航 - Face Yoga Pro",
+      "progress": "第 {step} 步，共 5 步",
+      "step1": {
+        "title": "选择您的性别",
+        "subtitle": "不同性别的面部肌肉结构有所不同"
+      },
+      "step2": {
+        "title": "您的年龄段是？",
+        "subtitle": "不同年龄段的肌肤需求不同"
+      },
+      "step3": {
+        "title": "您最想改善哪些问题？",
+        "subtitle": "可多选，我们会为您定制专属方案"
+      },
+      "step4": {
+        "title": "您每天能投入多少时间？",
+        "subtitle": "我们会根据您的时间安排合适的练习"
+      },
+      "step5": {
+        "title": "您的主要目标是什么？",
+        "subtitle": "选择最符合您期望的选项"
+      },
+      "gender": {
+        "female": "女性",
+        "male": "男性"
+      },
+      "concern": {
+        "wrinkles": "皱纹细纹",
+        "sagging": "面部松弛",
+        "doubleChin": "双下巴",
+        "jawline": "下颌线模糊",
+        "eyeBags": "眼袋黑眼圈",
+        "foreheadLines": "抬头纹"
+      },
+      "time": {
+        "min5": "5分钟",
+        "min5Desc": "快速见效",
+        "min10": "10分钟",
+        "min10Desc": "推荐时长",
+        "min15": "15分钟",
+        "min15Desc": "深度练习",
+        "min20": "20分钟+",
+        "min20Desc": "全面护理"
+      },
+      "goal": {
+        "antiAging": "抗衰老",
+        "antiAgingDesc": "延缓衰老迹象",
+        "contouring": "塑形紧致",
+        "contouringDesc": "提升面部轮廓",
+        "relaxation": "放松减压",
+        "relaxationDesc": "舒缓面部紧张",
+        "radiance": "焕发光彩",
+        "radianceDesc": "改善肤色气色"
+      },
+      "nav": {
+        "prev": "上一步",
+        "next": "下一步",
+        "seeResults": "查看结果"
+      },
+      "results": {
+        "title": "您的专属方案已生成！",
+        "subtitle": "根据您的需求，我们为您推荐以下练习",
+        "yourProfile": "您的档案",
+        "match": "匹配",
+        "startNow": "立即开始练习",
+        "retake": "重新测试"
+      }
+    },
     "exercises": {
       "title": "脸部瑜伽练习",
       "subtitle": "科学设计的面部肌肉训练，帮助您自然抗衰老",

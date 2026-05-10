@@ -1,11 +1,26 @@
 {
-  "nav": { "home": "Início", "exercises": "Ioga Facial", "massage": "Massagem", "jawline": "Linha do Maxilar", "about": "Sobre" },
-  "hero": { "title": "Anti-Envelhecimento Natural Começa com Ioga Facial", "subtitle": "Técnicas de massagem facial e ioga cientificamente comprovadas para elevar a linha do maxilar", "cta": "Começar a Aprender" },
+  "nav": { "home": "Início", "quiz": "Guia de Beleza", "exercises": "Ioga Facial", "massage": "Massagem", "jawline": "Linha do Maxilar", "about": "Sobre" },
+  "hero": { "title": "Anti-Envelhecimento Natural Começa com Ioga Facial", "subtitle": "Técnicas de massagem facial e ioga cientificamente comprovadas para elevar a linha do maxilar", "quizCta": "🧭 Guia de Beleza", "cta": "Começar a Aprender" },
   "features": { "title": "Por Que Ioga Facial?", "subtitle": "Métodos naturais, seguros e eficazes anti-envelhecimento", "feature1": { "title": "Cientificamente Comprovado", "desc": "Baseado em anatomia e princípios de movimento muscular" }, "feature2": { "title": "Fácil de Aprender", "desc": "Apenas 10-15 minutos por dia com tutoriais animados" }, "feature3": { "title": "Natural e Seguro", "desc": "Sem cirurgia ou injeções, melhoria natural" }, "feature4": { "title": "Em Qualquer Lugar", "desc": "Sem equipamentos especiais necessários" } },
   "exercises": { "title": "Exercícios Populares", "subtitle": "Treino profissional para diferentes áreas faciais", "viewAll": "Ver Todos", "exercise1": { "name": "Elevação do Maxilar", "duration": "5 min", "level": "Iniciante", "desc": "Definir linha do maxilar, reduzir papada" }, "exercise2": { "name": "Alisamento da Testa", "duration": "3 min", "level": "Iniciante", "desc": "Reduzir rugas, elevar sobrancelhas" }, "exercise3": { "name": "Escultura das Bochechas", "duration": "4 min", "level": "Intermediário", "desc": "Elevar região média do rosto" }, "exercise4": { "name": "Rejuvenescimento Ocular", "duration": "3 min", "level": "Iniciante", "desc": "Reduzir bolsas e olheiras" } },
   "steps": { "title": "Como Começar", "step1": { "title": "Escolher Exercício", "desc": "Selecione ioga facial conforme suas necessidades" }, "step2": { "title": "Assistir Animação", "desc": "Siga demonstrações animadas detalhadas" }, "step3": { "title": "Praticar Diariamente", "desc": "Resultados visíveis em 4-6 semanas" } },
   "footer": { "rights": "Todos os direitos reservados", "privacy": "Política de Privacidade", "terms": "Termos de Uso", "contact": "Contate-nos" },
   "page": {
+    "quiz": {
+      "title": "Guia de Beleza - Face Yoga Pro",
+      "progress": "Passo {step} de 5",
+      "step1": { "title": "Selecione seu gênero", "subtitle": "A estrutura muscular facial varia por gênero" },
+      "step2": { "title": "Qual é sua faixa etária?", "subtitle": "As necessidades da pele variam com a idade" },
+      "step3": { "title": "O que deseja melhorar?", "subtitle": "Seleção múltipla, personalizaremos seu plano" },
+      "step4": { "title": "Quanto tempo pode dedicar?", "subtitle": "Adaptaremos os exercícios à sua agenda" },
+      "step5": { "title": "Qual é seu objetivo principal?", "subtitle": "Escolha a opção que melhor atende suas expectativas" },
+      "gender": { "female": "Feminino", "male": "Masculino" },
+      "concern": { "wrinkles": "Rugas e linhas finas", "sagging": "Flacidez facial", "doubleChin": "Papo", "jawline": "Linha da mandíbula", "eyeBags": "Bolsas e olheiras", "foreheadLines": "Linhas na testa" },
+      "time": { "min5": "5 minutos", "min5Desc": "Rápido", "min10": "10 minutos", "min10Desc": "Recomendado", "min15": "15 minutos", "min15Desc": "Profundo", "min20": "20+ minutos", "min20Desc": "Completo" },
+      "goal": { "antiAging": "Anti-idade", "antiAgingDesc": "Retardar sinais de envelhecimento", "contouring": "Contorno e lifting", "contouringDesc": "Definir estrutura facial", "relaxation": "Relaxamento", "relaxationDesc": "Liberar tensão facial", "radiance": "Brilho", "radianceDesc": "Melhorar tom da pele" },
+      "nav": { "prev": "Anterior", "next": "Próximo", "seeResults": "Ver resultados" },
+      "results": { "title": "Seu plano personalizado está pronto!", "subtitle": "Com base em suas necessidades, recomendamos estes exercícios", "yourProfile": "Seu perfil", "match": "Correspondência", "startNow": "Começar agora", "retake": "Refazer teste" }
+    },
     "exercises": {
       "title": "Exercícios de Yoga Facial",
       "subtitle": "Treinamento muscular facial cientificamente projetado para anti-envelhecimento natural",

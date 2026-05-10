@@ -1,11 +1,26 @@
 {
   "nav": { "home": "Accueil", "exercises": "Yoga Facial", "massage": "Massage", "jawline": "Ligne Mandibulaire", "about": "À Propos" },
-  "hero": { "title": "L'Anti-Âge Naturel Commence par le Yoga Facial", "subtitle": "Techniques de massage facial et de yoga scientifiquement prouvées pour remonter la ligne mandibulaire", "cta": "Commencer à Apprendre" },
+  "hero": { "title": "L'Anti-Âge Naturel Commence par le Yoga Facial", "subtitle": "Techniques de massage facial et de yoga scientifiquement prouvées pour remonter la ligne mandibulaire", "quizCta": "🧭 Guide Beauté", "cta": "Commencer à Apprendre" },
   "features": { "title": "Pourquoi le Yoga Facial?", "subtitle": "Méthodes anti-âge naturelles, sûres et efficaces", "feature1": { "title": "Prouvé Scientifiquement", "desc": "Basé sur l'anatomie et les principes musculaires" }, "feature2": { "title": "Facile à Apprendre", "desc": "Juste 10-15 minutes par jour avec des tutoriels animés" }, "feature3": { "title": "Naturel et Sûr", "desc": "Sans chirurgie ni injections, amélioration naturelle" }, "feature4": { "title": "Partout et N'importe Quand", "desc": "Sans équipement spécial, pratiquez partout" } },
   "exercises": { "title": "Exercices Populaires", "subtitle": "Entraînement professionnel pour différentes zones faciales", "viewAll": "Voir Tout", "exercise1": { "name": "Relèvement Mandibulaire", "duration": "5 min", "level": "Débutant", "desc": "Définir la mâchoire, réduire double menton" }, "exercise2": { "name": "Lissage du Front", "duration": "3 min", "level": "Débutant", "desc": "Réduire les rides, relever les sourcils" }, "exercise3": { "name": "Sculpture des Joues", "duration": "4 min", "level": "Intermédiaire", "desc": "Relever le milieu du visage" }, "exercise4": { "name": "Rajeunissement Oculaire", "duration": "3 min", "level": "Débutant", "desc": "Réduire les poches et cernes" } },
   "steps": { "title": "Comment Commencer", "step1": { "title": "Choisir l'Exercice", "desc": "Sélectionnez le yoga facial selon vos besoins" }, "step2": { "title": "Regarder l'Animation", "desc": "Suivez les démonstrations animées détaillées" }, "step3": { "title": "Pratiquer Quotidiennement", "desc": "Résultats visibles en 4-6 semaines" } },
   "footer": { "rights": "Tous droits réservés", "privacy": "Politique de Confidentialité", "terms": "Conditions d'Utilisation", "contact": "Contactez-nous" },
   "page": {
+    "quiz": {
+      "title": "Guide Beauté - Face Yoga Pro",
+      "progress": "Étape {step} sur 5",
+      "step1": { "title": "Sélectionnez votre genre", "subtitle": "La structure musculaire faciale varie selon le genre" },
+      "step2": { "title": "Quelle est votre tranche d'âge ?", "subtitle": "Les besoins de la peau varient avec l'âge" },
+      "step3": { "title": "Que souhaitez-vous améliorer ?", "subtitle": "Sélection multiple, nous personnaliserons votre plan" },
+      "step4": { "title": "Combien de temps pouvez-vous consacrer ?", "subtitle": "Nous adapterons les exercices à votre emploi du temps" },
+      "step5": { "title": "Quel est votre objectif principal ?", "subtitle": "Choisissez l'option qui correspond le mieux à vos attentes" },
+      "gender": { "female": "Féminin", "male": "Masculin" },
+      "concern": { "wrinkles": "Rides et ridules", "sagging": "Affaissement facial", "doubleChin": "Double menton", "jawline": "Ligne de la mâchoire", "eyeBags": "Poches et cernes", "foreheadLines": "Rides du front" },
+      "time": { "min5": "5 minutes", "min5Desc": "Rapide", "min10": "10 minutes", "min10Desc": "Recommandé", "min15": "15 minutes", "min15Desc": "Approfondi", "min20": "20+ minutes", "min20Desc": "Complet" },
+      "goal": { "antiAging": "Anti-âge", "antiAgingDesc": "Retarder les signes de l'âge", "contouring": "Contour et lifting", "contouringDesc": "Définir la structure faciale", "relaxation": "Relaxation", "relaxationDesc": "Relâcher les tensions", "radiance": "Éclat", "radianceDesc": "Améliorer le teint" },
+      "nav": { "prev": "Précédent", "next": "Suivant", "seeResults": "Voir les résultats" },
+      "results": { "title": "Votre plan personnalisé est prêt !", "subtitle": "Selon vos besoins, nous recommandons ces exercices", "yourProfile": "Votre profil", "match": "Correspondance", "startNow": "Commencer maintenant", "retake": "Refaire le test" }
+    },
     "exercises": {
       "title": "Exercices de Yoga Facial",
       "subtitle": "Entraînement musculaire facial scientifiquement conçu pour un anti-âge naturel",

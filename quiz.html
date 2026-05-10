@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="美丽导航 - 通过简单的问答，为您推荐最适合的脸部瑜伽方案">
+    <meta name="keywords" content="脸部瑜伽测试,面部瑜伽推荐,个性化护肤方案,颜面诊断">
+    <title data-i18n="page.quiz.title">美丽导航 - Face Yoga Pro</title>
+    
+    <link rel="canonical" href="https://lisani0429.github.io/face-yoga-pro/quiz.html">
+    <link rel="alternate" hreflang="zh" href="https://lisani0429.github.io/face-yoga-pro/quiz.html?lang=zh">
+    <link rel="alternate" hreflang="en" href="https://lisani0429.github.io/face-yoga-pro/quiz.html?lang=en">
+    <link rel="alternate" hreflang="ja" href="https://lisani0429.github.io/face-yoga-pro/quiz.html?lang=ja">
+    <link rel="alternate" hreflang="ko" href="https://lisani0429.github.io/face-yoga-pro/quiz.html?lang=ko">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "美丽导航 - Face Yoga Pro",
+        "description": "个性化脸部瑜伽方案推荐工具",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="Face Yoga Pro Home">
+                <svg class="logo-icon" viewBox="0 0 40 40" aria-hidden="true">
+                    <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 24 Q20 30 28 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="14" cy="16" r="2" fill="currentColor"/>
+                    <circle cx="26" cy="16" r="2" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Face Yoga Pro</span>
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="index.html" class="nav-link" data-i18n="nav.home" role="menuitem">首页</a></li>
+                <li role="none"><a href="exercises.html" class="nav-link" data-i18n="nav.exercises" role="menuitem">脸部瑜伽</a></li>
+                <li role="none"><a href="massage.html" class="nav-link" data-i18n="nav.massage" role="menuitem">按摩手法</a></li>
+                <li role="none"><a href="jawline.html" class="nav-link" data-i18n="nav.jawline" role="menuitem">下颌线提升</a></li>
+                <li role="none"><a href="about.html" class="nav-link" data-i18n="nav.about" role="menuitem">关于我们</a></li>
+            </ul>
+            
+            <div class="lang-selector" role="listbox" aria-label="Select language">
+                <button class="lang-btn" aria-haspopup="listbox" aria-expanded="false">
+                    <span class="current-lang">中文</span>
+                    <svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                </button>
+                <ul class="lang-dropdown" role="listbox">
+                    <li role="option" data-lang="zh" aria-selected="true">中文</li>
+                    <li role="option" data-lang="en">English</li>
+                    <li role="option" data-lang="ja">日本語</li>
+                    <li role="option" data-lang="ko">한국어</li>
+                    <li role="option" data-lang="es">Español</li>
+                    <li role="option" data-lang="fr">Français</li>
+                    <li role="option" data-lang="de">Deutsch</li>
+                    <li role="option" data-lang="pt">Português</li>
+                    <li role="option" data-lang="ru">Русский</li>
+                    <li role="option" data-lang="ar">العربية</li>
+                    <li role="option" data-lang="hi">हिन्दी</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Quiz Container -->
+    <main class="quiz-container">
+        <!-- Progress Bar -->
+        <div class="quiz-progress">
+            <div class="progress-track">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="progress-steps">
+                <span class="progress-step active" data-step="1">1</span>
+                <span class="progress-step" data-step="2">2</span>
+                <span class="progress-step" data-step="3">3</span>
+                <span class="progress-step" data-step="4">4</span>
+                <span class="progress-step" data-step="5">5</span>
+            </div>
+            <p class="progress-text" data-i18n="quiz.progress">第 <span id="current-step">1</span> 步，共 5 步</p>
+        </div>
+
+        <!-- Quiz Content -->
+        <div class="quiz-content">
+            <!-- Step 1: Gender -->
+            <div class="quiz-step active" data-step="1">
+                <div class="step-illustration">
+                    <svg viewBox="0 0 200 200" class="gender-illustration">
+                        <!-- Left face (female) -->
+                        <ellipse cx="60" cy="100" rx="40" ry="50" fill="#FFE4D6" stroke="#E8C4B8" stroke-width="2"/>
+                        <ellipse cx="50" cy="90" rx="8" ry="5" fill="white" stroke="#666" stroke-width="1"/>
+                        <ellipse cx="70" cy="90" rx="8" ry="5" fill="white" stroke="#666" stroke-width="1"/>
+                        <circle cx="50" cy="90" r="3" fill="#4A4A4A"/>
+                        <circle cx="70" cy="90" r="3" fill="#4A4A4A"/>
+                        <path d="M45 115 Q60 125 75 115" fill="none" stroke="#E88B8B" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M30 70 Q60 50 90 70" fill="none" stroke="#8B7355" stroke-width="3"/>
+                        
+                        <!-- Right face (male) -->
+                        <ellipse cx="140" cy="100" rx="40" ry="50" fill="#FFE4D6" stroke="#E8C4B8" stroke-width="2"/>
+                        <ellipse cx="130" cy="90" rx="8" ry="5" fill="white" stroke="#666" stroke-width="1"/>
+                        <ellipse cx="150" cy="90" rx="8" ry="5" fill="white" stroke="#666" stroke-width="1"/>
+                        <circle cx="130" cy="90" r="3" fill="#4A4A4A"/>
+                        <circle cx="150" cy="90" r="3" fill="#4A4A4A"/>
+                        <path d="M125 115 Q140 125 155 115" fill="none" stroke="#E88B8B" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M110 65 L170 65" fill="none" stroke="#8B7355" stroke-width="3"/>
+                    </svg>
+                </div>
+                <h2 class="step-title" data-i18n="quiz.step1.title">选择您的性别</h2>
+                <p class="step-subtitle" data-i18n="quiz.step1.subtitle">不同性别的面部肌肉结构有所不同</p>
+                <div class="option-grid gender-options">
+                    <button class="quiz-option" data-value="female" data-field="gender">
+                        <span class="option-icon">👩</span>
+                        <span class="option-label" data-i18n="quiz.gender.female">女性</span>
+                    </button>
+                    <button class="quiz-option" data-value="male" data-field="gender">
+                        <span class="option-icon">👨</span>
+                        <span class="option-label" data-i18n="quiz.gender.male">男性</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 2: Age -->
+            <div class="quiz-step" data-step="2">
+                <div class="step-illustration">
+                    <svg viewBox="0 0 200 150" class="age-illustration">
+                        <!-- Timeline -->
+                        <line x1="20" y1="75" x2="180" y2="75" stroke="#E0E0E0" stroke-width="4" stroke-linecap="round"/>
+                        <!-- Age markers -->
+                        <circle cx="40" cy="75" r="8" fill="#FFB6C1"/>
+                        <circle cx="80" cy="75" r="8" fill="#DDA0DD"/>
+                        <circle cx="120" cy="75" r="8" fill="#9370DB"/>
+                        <circle cx="160" cy="75" r="8" fill="#6B5B95"/>
+                        <!-- Labels -->
+                        <text x="40" y="100" text-anchor="middle" fill="#666" font-size="10">20s</text>
+                        <text x="80" y="100" text-anchor="middle" fill="#666" font-size="10">30s</text>
+                        <text x="120" y="100" text-anchor="middle" fill="#666" font-size="10">40s</text>
+                        <text x="160" y="100" text-anchor="middle" fill="#666" font-size="10">50+</text>
+                        <!-- Sparkles -->
+                        <circle cx="60" cy="50" r="3" fill="#FFD700" opacity="0.6"/>
+                        <circle cx="100" cy="40" r="4" fill="#FFD700" opacity="0.8"/>
+                        <circle cx="140" cy="55" r="3" fill="#FFD700" opacity="0.7"/>
+                    </svg>
+                </div>
+                <h2 class="step-title" data-i18n="quiz.step2.title">您的年龄段是？</h2>
+                <p class="step-subtitle" data-i18n="quiz.step2.subtitle">不同年龄段的肌肤需求不同</p>
+                <div class="option-grid age-options">
+                    <button class="quiz-option" data-value="20-29" data-field="age">
+                        <span class="option-label">20-29</span>
+                    </button>
+                    <button class="quiz-option" data-value="30-39" data-field="age">
+                        <span class="option-label">30-39</span>
+                    </button>
+                    <button class="quiz-option" data-value="40-49" data-field="age">
+                        <span class="option-label">40-49</span>
+                    </button>
+                    <button class="quiz-option" data-value="50+" data-field="age">
+                        <span class="option-label">50+</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 3: Main Concerns -->
+            <div class="quiz-step" data-step="3">
+                <div class="step-illustration">
+                    <svg viewBox="0 0 200 200" class="concerns-illustration">
+                        <!-- Face outline -->
+                        <ellipse cx="100" cy="100" rx="60" ry="75" fill="#FFE4D6" stroke="#E8C4B8" stroke-width="2"/>
+                        <!-- Concern areas with highlights -->
+                        <!-- Forehead -->
+                        <ellipse cx="100" cy="45" rx="35" ry="15" fill="rgba(255,107,107,0.3)" stroke="#FF6B6B" stroke-width="1" stroke-dasharray="3,2"/>
+                        <!-- Eyes -->
+                        <ellipse cx="75" cy="85" rx="18" ry="12" fill="rgba(78,205,196,0.3)" stroke="#4ECDC4" stroke-width="1" stroke-dasharray="3,2"/>
+                        <ellipse cx="125" cy="85" rx="18" ry="12" fill="rgba(78,205,196,0.3)" stroke="#4ECDC4" stroke-width="1" stroke-dasharray="3,2"/>
+                        <!-- Cheeks -->
+                        <ellipse cx="65" cy="115" rx="20" ry="15" fill="rgba(233,30,99,0.2)" stroke="#E91E63" stroke-width="1" stroke-dasharray="3,2"/>
+                        <ellipse cx="135" cy="115" rx="20" ry="15" fill="rgba(233,30,99,0.2)" stroke="#E91E63" stroke-width="1" stroke-dasharray="3,2"/>
+                        <!-- Jawline -->
+                        <path d="M40 130 Q40 175 100 180 Q160 175 160 130" fill="none" stroke="#6B5B95" stroke-width="2" stroke-dasharray="5,3"/>
+                        <!-- Neck -->
+                        <path d="M70 175 Q70 195 80 200 M130 175 Q130 195 120 200" fill="none" stroke="#FFB74D" stroke-width="2" stroke-dasharray="3,2"/>
+                    </svg>
+                </div>
+                <h2 class="step-title" data-i18n="quiz.step3.title">您最想改善哪些问题？</h2>
+                <p class="step-subtitle" data-i18n="quiz.step3.subtitle">可多选，我们会为您定制专属方案</p>
+                <div class="option-grid concerns-options multi-select">
+                    <button class="quiz-option" data-value="wrinkles" data-field="concerns">
+                        <span class="option-icon">✨</span>
+                        <span class="option-label" data-i18n="quiz.concern.wrinkles">皱纹细纹</span>
+                    </button>
+                    <button class="quiz-option" data-value="sagging" data-field="concerns">
+                        <span class="option-icon">⬆️</span>
+                        <span class="option-label" data-i18n="quiz.concern.sagging">面部松弛</span>
+                    </button>
+                    <button class="quiz-option" data-value="double-chin" data-field="concerns">
+                        <span class="option-icon">下巴</span>
+                        <span class="option-label" data-i18n="quiz.concern.doubleChin">双下巴</span>
+                    </button>
+                    <button class="quiz-option" data-value="jawline" data-field="concerns">
+                        <span class="option-icon">💎</span>
+                        <span class="option-label" data-i18n="quiz.concern.jawline">下颌线模糊</span>
+                    </button>
+                    <button class="quiz-option" data-value="eye-bags" data-field="concerns">
+                        <span class="option-icon">👁️</span>
+                        <span class="option-label" data-i18n="quiz.concern.eyeBags">眼袋黑眼圈</span>
+                    </button>
+                    <button class="quiz-option" data-value="forehead-lines" data-field="concerns">
+                        <span class="option-icon">📏</span>
+                        <span class="option-label" data-i18n="quiz.concern.foreheadLines">抬头纹</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 4: Time Available -->
+            <div class="quiz-step" data-step="4">
+                <div class="step-illustration">
+                    <svg viewBox="0 0 200 150" class="time-illustration">
+                        <!-- Clock -->
+                        <circle cx="100" cy="75" r="50" fill="none" stroke="#6B5B95" stroke-width="4"/>
+                        <circle cx="100" cy="75" r="45" fill="#F8F5FF"/>
+                        <!-- Clock marks -->
+                        <line x1="100" y1="35" x2="100" y2="45" stroke="#6B5B95" stroke-width="2"/>
+                        <line x1="100" y1="105" x2="100" y2="115" stroke="#6B5B95" stroke-width="2"/>
+                        <line x1="60" y1="75" x2="70" y2="75" stroke="#6B5B95" stroke-width="2"/>
+                        <line x1="130" y1="75" x2="140" y2="75" stroke="#6B5B95" stroke-width="2"/>
+                        <!-- Clock hands -->
+                        <line x1="100" y1="75" x2="100" y2="50" stroke="#FF6B6B" stroke-width="3" stroke-linecap="round">
+                            <animateTransform attributeName="transform" type="rotate" from="0 100 75" to="360 100 75" dur="60s" repeatCount="indefinite"/>
+                        </line>
+                        <line x1="100" y1="75" x2="120" y2="75" stroke="#4ECDC4" stroke-width="2" stroke-linecap="round"/>
+                        <!-- Center dot -->
+                        <circle cx="100" cy="75" r="4" fill="#6B5B95"/>
+                    </svg>
+                </div>
+                <h2 class="step-title" data-i18n="quiz.step4.title">您每天能投入多少时间？</h2>
+                <p class="step-subtitle" data-i18n="quiz.step4.subtitle">我们会根据您的时间安排合适的练习</p>
+                <div class="option-grid time-options">
+                    <button class="quiz-option" data-value="5" data-field="time">
+                        <span class="option-icon">⚡</span>
+                        <span class="option-label" data-i18n="quiz.time.min5">5分钟</span>
+                        <span class="option-desc" data-i18n="quiz.time.min5Desc">快速见效</span>
+                    </button>
+                    <button class="quiz-option" data-value="10" data-field="time">
+                        <span class="option-icon">⏰</span>
+                        <span class="option-label" data-i18n="quiz.time.min10">10分钟</span>
+                        <span class="option-desc" data-i18n="quiz.time.min10Desc">推荐时长</span>
+                    </button>
+                    <button class="quiz-option" data-value="15" data-field="time">
+                        <span class="option-icon">🌟</span>
+                        <span class="option-label" data-i18n="quiz.time.min15">15分钟</span>
+                        <span class="option-desc" data-i18n="quiz.time.min15Desc">深度练习</span>
+                    </button>
+                    <button class="quiz-option" data-value="20+" data-field="time">
+                        <span class="option-icon">💪</span>
+                        <span class="option-label" data-i18n="quiz.time.min20">20分钟+</span>
+                        <span class="option-desc" data-i18n="quiz.time.min20Desc">全面护理</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Step 5: Goals -->
+            <div class="quiz-step" data-step="5">
+                <div class="step-illustration">
+                    <svg viewBox="0 0 200 150" class="goals-illustration">
+                        <!-- Target/Bullseye -->
+                        <circle cx="100" cy="75" r="50" fill="none" stroke="#FF6B6B" stroke-width="2"/>
+                        <circle cx="100" cy="75" r="35" fill="none" stroke="#FFB74D" stroke-width="2"/>
+                        <circle cx="100" cy="75" r="20" fill="none" stroke="#4ECDC4" stroke-width="2"/>
+                        <circle cx="100" cy="75" r="8" fill="#6B5B95"/>
+                        <!-- Arrow -->
+                        <path d="M150 30 L110 70" stroke="#6B5B95" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M150 30 L140 35 M150 30 L145 40" stroke="#6B5B95" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <!-- Stars -->
+                        <text x="160" y="25" font-size="16">⭐</text>
+                        <text x="170" y="50" font-size="12">✨</text>
+                    </svg>
+                </div>
+                <h2 class="step-title" data-i18n="quiz.step5.title">您的主要目标是什么？</h2>
+                <p class="step-subtitle" data-i18n="quiz.step5.subtitle">选择最符合您期望的选项</p>
+                <div class="option-grid goals-options">
+                    <button class="quiz-option" data-value="anti-aging" data-field="goal">
+                        <span class="option-icon">🌸</span>
+                        <span class="option-label" data-i18n="quiz.goal.antiAging">抗衰老</span>
+                        <span class="option-desc" data-i18n="quiz.goal.antiAgingDesc">延缓衰老迹象</span>
+                    </button>
+                    <button class="quiz-option" data-value="contouring" data-field="goal">
+                        <span class="option-icon">💎</span>
+                        <span class="option-label" data-i18n="quiz.goal.contouring">塑形紧致</span>
+                        <span class="option-desc" data-i18n="quiz.goal.contouringDesc">提升面部轮廓</span>
+                    </button>
+                    <button class="quiz-option" data-value="relaxation" data-field="goal">
+                        <span class="option-icon">🧘</span>
+                        <span class="option-label" data-i18n="quiz.goal.relaxation">放松减压</span>
+                        <span class="option-desc" data-i18n="quiz.goal.relaxationDesc">舒缓面部紧张</span>
+                    </button>
+                    <button class="quiz-option" data-value="radiance" data-field="goal">
+                        <span class="option-icon">✨</span>
+                        <span class="option-label" data-i18n="quiz.goal.radiance">焕发光彩</span>
+                        <span class="option-desc" data-i18n="quiz.goal.radianceDesc">改善肤色气色</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div class="quiz-step quiz-results" data-step="results">
+                <div class="results-header">
+                    <div class="results-icon">🎉</div>
+                    <h2 class="results-title" data-i18n="quiz.results.title">您的专属方案已生成！</h2>
+                    <p class="results-subtitle" data-i18n="quiz.results.subtitle">根据您的需求，我们为您推荐以下练习</p>
+                </div>
+                
+                <div class="results-summary">
+                    <div class="summary-card">
+                        <h3 data-i18n="quiz.results.yourProfile">您的档案</h3>
+                        <div class="profile-tags" id="profile-tags"></div>
+                    </div>
+                </div>
+                
+                <div class="recommended-exercises" id="recommended-exercises">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+                
+                <div class="results-cta">
+                    <a href="exercises.html" class="cta-primary" data-i18n="quiz.results.startNow">立即开始练习</a>
+                    <button class="cta-secondary" onclick="restartQuiz()" data-i18n="quiz.results.retake">重新测试</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="quiz-nav" id="quiz-nav">
+            <button class="nav-btn prev-btn" id="prev-btn" disabled>
+                <svg viewBox="0 0 24 24" width="20" height="20"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                <span data-i18n="quiz.nav.prev">上一步</span>
+            </button>
+            <button class="nav-btn next-btn" id="next-btn" disabled>
+                <span data-i18n="quiz.nav.next">下一步</span>
+                <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 Face Yoga Pro. <span data-i18n="footer.rights">保留所有权利</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

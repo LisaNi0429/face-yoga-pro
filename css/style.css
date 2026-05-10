@@ -446,6 +446,47 @@ a:hover {
     color: var(--white);
 }
 
+/* Hero CTA Group */
+.hero-cta-group {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-cta-group .cta-primary {
+    background: linear-gradient(135deg, #FF6B6B, #6B5B95);
+    animation: pulse 2s infinite;
+}
+
+.hero-cta-group .cta-secondary {
+    background: transparent;
+    border: 2px solid var(--white);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.hero-cta-group .cta-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.4); }
+    50% { box-shadow: 0 0 0 15px rgba(255, 107, 107, 0); }
+}
+
+/* Quiz Nav Link Highlight */
+.quiz-nav-link {
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(107, 91, 149, 0.1));
+    border-radius: var(--radius-full);
+    padding: var(--space-xs) var(--space-md) !important;
+    margin-left: var(--space-xs);
+}
+
+.quiz-nav-link:hover {
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), rgba(107, 91, 149, 0.2));
+}
+
 /* Hero Animation */
 .hero-animation {
     margin-top: var(--space-2xl);
