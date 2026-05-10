@@ -1,0 +1,288 @@
+/* ========================================
+   Face Yoga Pro - Exercises Page Styles
+   ======================================== */
+
+/* Page Header */
+.page-header {
+    padding: calc(80px + var(--space-3xl)) var(--space-lg) var(--space-2xl);
+    background: var(--gradient-soft);
+    text-align: center;
+}
+
+.page-title {
+    margin-bottom: var(--space-md);
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-subtitle {
+    color: var(--gray-600);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Content */
+.main-content {
+    padding: var(--space-2xl) 0 var(--space-3xl);
+}
+
+/* Exercise Section */
+.exercise-section {
+    margin-bottom: var(--space-3xl);
+    padding: var(--space-2xl);
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+}
+
+.exercise-section:nth-child(even) {
+    background: var(--gray-50);
+}
+
+.exercise-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+}
+
+.exercise-meta {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+.exercise-level {
+    padding: var(--space-xs) var(--space-md);
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.exercise-level.beginner {
+    background: rgba(76, 175, 80, 0.15);
+    color: var(--success);
+}
+
+.exercise-level.intermediate {
+    background: rgba(255, 152, 0, 0.15);
+    color: var(--warning);
+}
+
+.exercise-level.advanced {
+    background: rgba(244, 67, 54, 0.15);
+    color: #F44336;
+}
+
+.exercise-duration {
+    color: var(--gray-500);
+    font-size: 0.9rem;
+}
+
+.exercise-title {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    margin-bottom: var(--space-sm);
+}
+
+.exercise-description {
+    color: var(--gray-600);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Exercise Content Layout */
+.exercise-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .exercise-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Animation Container */
+.animation-container {
+    position: relative;
+    background: linear-gradient(135deg, rgba(107, 91, 149, 0.05) 0%, rgba(255, 107, 107, 0.05) 100%);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exercise-animation-svg {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.animation-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+.play-pause-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-full);
+    background: var(--gradient-primary);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.play-pause-btn:hover {
+    transform: scale(1.1);
+    box-shadow: var(--shadow-lg);
+}
+
+.play-pause-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--white);
+}
+
+.animation-label {
+    color: var(--gray-600);
+    font-size: 0.9rem;
+}
+
+/* Exercise Instructions */
+.exercise-instructions {
+    padding: var(--space-md);
+}
+
+.exercise-instructions h3 {
+    margin-bottom: var(--space-lg);
+    color: var(--primary);
+}
+
+.steps-list {
+    list-style: none;
+    counter-reset: step-counter;
+}
+
+.steps-list li {
+    display: flex;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+    padding: var(--space-md);
+    background: var(--white);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.steps-list li:hover {
+    transform: translateX(5px);
+    box-shadow: var(--shadow-md);
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    background: var(--gradient-primary);
+    color: var(--white);
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.step-content strong {
+    display: block;
+    margin-bottom: var(--space-xs);
+    color: var(--gray-800);
+}
+
+.step-content p {
+    margin: 0;
+    color: var(--gray-600);
+    font-size: 0.95rem;
+}
+
+/* Exercise Tips */
+.exercise-tips {
+    margin-top: var(--space-xl);
+    padding: var(--space-lg);
+    background: linear-gradient(135deg, rgba(78, 205, 196, 0.1) 0%, rgba(107, 91, 149, 0.1) 100%);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--accent);
+}
+
+.exercise-tips h4 {
+    margin-bottom: var(--space-md);
+    color: var(--gray-800);
+}
+
+.exercise-tips ul {
+    list-style: none;
+    margin: 0;
+}
+
+.exercise-tips li {
+    position: relative;
+    padding-left: var(--space-lg);
+    margin-bottom: var(--space-sm);
+    color: var(--gray-600);
+}
+
+.exercise-tips li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--success);
+    font-weight: bold;
+}
+
+/* SVG Animation Styles */
+.face-base-shape {
+    transition: fill 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .exercise-section {
+        padding: var(--space-lg);
+        margin-bottom: var(--space-2xl);
+    }
+    
+    .steps-list li {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .step-number {
+        margin: 0 auto var(--space-sm);
+    }
+}
+
+/* Print styles */
+@media print {
+    .animation-container {
+        display: none;
+    }
+    
+    .exercise-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .exercise-section {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid var(--gray-300);
+    }
+}

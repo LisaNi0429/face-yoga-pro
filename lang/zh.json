@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "首页",
+    "exercises": "脸部瑜伽",
+    "massage": "按摩手法",
+    "jawline": "下颌线提升",
+    "about": "关于我们"
+  },
+  "hero": {
+    "title": "自然抗衰老，从脸部瑜伽开始",
+    "subtitle": "科学验证的脸部按摩与瑜伽技巧，帮助您提升下颌线，焕发年轻光彩",
+    "cta": "开始学习"
+  },
+  "features": {
+    "title": "为什么选择脸部瑜伽？",
+    "subtitle": "自然、安全、有效的面部抗衰老方法",
+    "feature1": {
+      "title": "科学验证",
+      "desc": "基于解剖学和肌肉运动原理，每个动作都经过专业验证"
+    },
+    "feature2": {
+      "title": "简单易学",
+      "desc": "跟随动画教学，每天只需10-15分钟即可完成练习"
+    },
+    "feature3": {
+      "title": "自然安全",
+      "desc": "无需手术或注射，通过自然方式改善面部轮廓"
+    },
+    "feature4": {
+      "title": "随时随地",
+      "desc": "无需特殊设备，在家、办公室都能轻松练习"
+    }
+  },
+  "exercises": {
+    "title": "热门练习",
+    "subtitle": "针对不同面部区域的专业训练",
+    "viewAll": "查看全部",
+    "exercise1": {
+      "name": "下颌线提升",
+      "duration": "5分钟",
+      "level": "初级",
+      "desc": "紧致下颌线条，消除双下巴"
+    },
+    "exercise2": {
+      "name": "额头抚平",
+      "duration": "3分钟",
+      "level": "初级",
+      "desc": "减少额头皱纹，提升眉眼"
+    },
+    "exercise3": {
+      "name": "苹果肌塑形",
+      "duration": "4分钟",
+      "level": "中级",
+      "desc": "提升面部中部，恢复年轻轮廓"
+    },
+    "exercise4": {
+      "name": "眼部舒缓",
+      "duration": "3分钟",
+      "level": "初级",
+      "desc": "消除眼袋和黑眼圈"
+    }
+  },
+  "steps": {
+    "title": "如何开始",
+    "step1": {
+      "title": "选择练习",
+      "desc": "根据您的需求选择适合的脸部瑜伽动作"
+    },
+    "step2": {
+      "title": "观看动画",
+      "desc": "跟随详细的动画演示学习正确动作"
+    },
+    "step3": {
+      "title": "坚持练习",
+      "desc": "每天练习，4-6周即可看到明显效果"
+    }
+  },
+  "footer": {
+    "rights": "保留所有权利",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "contact": "联系我们"
+  },
+  "page": {
+    "exercises": {
+      "title": "脸部瑜伽练习",
+      "subtitle": "科学设计的面部肌肉训练，帮助您自然抗衰老"
+    },
+    "massage": {
+      "title": "脸部按摩手法",
+      "subtitle": "专业按摩技巧，促进血液循环，提升肌肤弹性"
+    },
+    "jawline": {
+      "title": "下颌线提升专项",
+      "subtitle": "针对下颌线条的专属训练计划"
+    }
+  },
+  "animation": {
+    "play": "播放动画",
+    "pause": "暂停",
+    "step": "步骤",
+    "tip": "提示"
+  }
+}

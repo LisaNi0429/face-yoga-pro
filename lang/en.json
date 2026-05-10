@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "exercises": "Face Yoga",
+    "massage": "Massage",
+    "jawline": "Jawline Lift",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Natural Anti-Aging Starts with Face Yoga",
+    "subtitle": "Scientifically proven facial massage and yoga techniques to lift your jawline and restore youthful radiance",
+    "cta": "Start Learning"
+  },
+  "features": {
+    "title": "Why Choose Face Yoga?",
+    "subtitle": "Natural, safe, and effective facial anti-aging methods",
+    "feature1": {
+      "title": "Scientifically Proven",
+      "desc": "Based on anatomy and muscle movement principles, every exercise is professionally validated"
+    },
+    "feature2": {
+      "title": "Easy to Learn",
+      "desc": "Follow animated tutorials, just 10-15 minutes daily"
+    },
+    "feature3": {
+      "title": "Natural & Safe",
+      "desc": "No surgery or injections needed, improve facial contours naturally"
+    },
+    "feature4": {
+      "title": "Anytime, Anywhere",
+      "desc": "No special equipment needed, practice at home or office"
+    }
+  },
+  "exercises": {
+    "title": "Popular Exercises",
+    "subtitle": "Professional training for different facial areas",
+    "viewAll": "View All",
+    "exercise1": {
+      "name": "Jawline Lift",
+      "duration": "5 min",
+      "level": "Beginner",
+      "desc": "Define jawline, reduce double chin"
+    },
+    "exercise2": {
+      "name": "Forehead Smoothing",
+      "duration": "3 min",
+      "level": "Beginner",
+      "desc": "Reduce forehead wrinkles, lift brows"
+    },
+    "exercise3": {
+      "name": "Cheek Sculpting",
+      "duration": "4 min",
+      "level": "Intermediate",
+      "desc": "Lift mid-face, restore youthful contours"
+    },
+    "exercise4": {
+      "name": "Eye Rejuvenation",
+      "duration": "3 min",
+      "level": "Beginner",
+      "desc": "Reduce eye bags and dark circles"
+    }
+  },
+  "steps": {
+    "title": "How to Start",
+    "step1": {
+      "title": "Choose Exercise",
+      "desc": "Select face yoga exercises that suit your needs"
+    },
+    "step2": {
+      "title": "Watch Animation",
+      "desc": "Follow detailed animated demonstrations"
+    },
+    "step3": {
+      "title": "Practice Daily",
+      "desc": "See visible results in 4-6 weeks with daily practice"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "contact": "Contact Us"
+  },
+  "page": {
+    "exercises": {
+      "title": "Face Yoga Exercises",
+      "subtitle": "Scientifically designed facial muscle training for natural anti-aging"
+    },
+    "massage": {
+      "title": "Facial Massage Techniques",
+      "subtitle": "Professional massage skills to promote circulation and skin elasticity"
+    },
+    "jawline": {
+      "title": "Jawline Lift Program",
+      "subtitle": "Specialized training plan for jawline definition"
+    }
+  },
+  "animation": {
+    "play": "Play Animation",
+    "pause": "Pause",
+    "step": "Step",
+    "tip": "Tip"
+  }
+}
