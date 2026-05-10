@@ -528,12 +528,26 @@
 
         // Extended i18n for exercises page
         (function() {
-            window.addEventListener('load', function() {
-                if (window.i18n && window.i18n.translations) {
-                    applyExercisesTranslations();
-                }
+            // Wait for i18n to be ready
+            function waitForI18n(callback, maxAttempts = 50) {
+                let attempts = 0;
+                const check = () => {
+                    attempts++;
+                    if (window.i18n && window.i18n.translations && window.i18n.translations.page && window.i18n.translations.page.exercises) {
+                        callback();
+                    } else if (attempts < maxAttempts) {
+                        setTimeout(check, 100);
+                    }
+                };
+                check();
+            }
+            
+            // Apply translations when i18n is ready
+            waitForI18n(function() {
+                applyExercisesTranslations();
             });
             
+            // Also apply when language changes
             window.addEventListener('languageChanged', function() {
                 applyExercisesTranslations();
             });
