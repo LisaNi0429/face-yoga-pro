@@ -1,26 +1,160 @@
 {
-  "nav": { "home": "Startseite", "exercises": "Gesichtsyoga", "massage": "Massage", "jawline": "Kieferlinie", "about": "Über uns" },
-  "hero": { "title": "Natürliche Anti-Aging beginnt mit Gesichtsyoga", "subtitle": "Wissenschaftlich bewährte Gesichts- und Yogatechniken zur Straffung der Kieferlinie", "quizCta": "🧭 Schönheits-Guide", "cta": "Jetzt Lernen" },
-  "features": { "title": "Warum Gesichtsyoga?", "subtitle": "Natürliche, sichere und effektive Anti-Aging-Methoden", "feature1": { "title": "Wissenschaftlich Bewiesen", "desc": "Basierend auf Anatomie und Muskelbewegungsprinzipien" }, "feature2": { "title": "Leicht zu Lernen", "desc": "Nur 10-15 Minuten täglich mit animierten Tutorials" }, "feature3": { "title": "Natürlich & Sicher", "desc": "Ohne Operation oder Injektionen, natürliche Verbesserung" }, "feature4": { "title": "Überall & Jederzeit", "desc": "Keine spezielle Ausrüstung erforderlich" } },
-  "exercises": { "title": "Beliebte Übungen", "subtitle": "Professionelles Training für verschiedene Gesichtsbereiche", "viewAll": "Alle Anzeigen", "exercise1": { "name": "Kieferlinien-Straffung", "duration": "5 Min", "level": "Anfänger", "desc": "Kieferlinie definieren, Doppelkinn reduzieren" }, "exercise2": { "name": "Stirnglättung", "duration": "3 Min", "level": "Anfänger", "desc": "Stirnfalten reduzieren, Augenbrauen heben" }, "exercise3": { "name": "Wangenmodellierung", "duration": "4 Min", "level": "Mittelstufe", "desc": "Mittelgesicht anheben" }, "exercise4": { "name": "Augenverjüngung", "duration": "3 Min", "level": "Anfänger", "desc": "Tränensäcke und dunkle Augenringe reduzieren" } },
-  "steps": { "title": "Wie man anfängt", "step1": { "title": "Übung Wählen", "desc": "Wählen Sie Gesichtsyoga nach Ihren Bedürfnissen" }, "step2": { "title": "Animation Ansehen", "desc": "Folgen Sie detaillierten animierten Demonstrationen" }, "step3": { "title": "Täglich Üben", "desc": "Sichtbare Ergebnisse in 4-6 Wochen" } },
-  "footer": { "rights": "Alle Rechte vorbehalten", "privacy": "Datenschutzrichtlinie", "terms": "Nutzungsbedingungen", "contact": "Kontakt", "tagline": "Natürliches Anti-Aging beginnt mit Gesichts-Yoga", "courses": "Kurse", "support": "Support" },
-  "page": {
-    "quiz": {
-      "title": "Schönheits-Guide - Face Yoga Pro",
-      "progress": "Schritt {step} von 5",
-      "step1": { "title": "Wählen Sie Ihr Geschlecht", "subtitle": "Die Gesichtsmuskelstruktur variiert je nach Geschlecht" },
-      "step2": { "title": "Wie alt sind Sie?", "subtitle": "Die Hautbedürfnisse ändern sich mit dem Alter" },
-      "step3": { "title": "Was möchten Sie verbessern?", "subtitle": "Mehrfachauswahl möglich, wir erstellen Ihren Plan" },
-      "step4": { "title": "Wie viel Zeit können Sie investieren?", "subtitle": "Wir passen die Übungen Ihrem Zeitplan an" },
-      "step5": { "title": "Was ist Ihr Hauptziel?", "subtitle": "Wählen Sie die Option, die Ihren Erwartungen am besten entspricht" },
-      "gender": { "female": "Weiblich", "male": "Männlich" },
-      "concern": { "wrinkles": "Falten & Linien", "sagging": "Gesichtsschlaffheit", "doubleChin": "Doppelkinn", "jawline": "Kieferpartie", "eyeBags": "Augenbeutel & dunkle Ringe", "foreheadLines": "Stirnfalten" },
-      "time": { "min5": "5 Minuten", "min5Desc": "Schnell", "min10": "10 Minuten", "min10Desc": "Empfohlen", "min15": "15 Minuten", "min15Desc": "Gründlich", "min20": "20+ Minuten", "min20Desc": "Vollständig" },
-      "goal": { "antiAging": "Anti-Aging", "antiAgingDesc": "Alterserscheinungen verzögern", "contouring": "Konturierung & Lifting", "contouringDesc": "Gesichtsstruktur definieren", "relaxation": "Entspannung", "relaxationDesc": "Gesichtsspannungen lösen", "radiance": "Strahlen", "radianceDesc": "Hautton verbessern" },
-      "nav": { "prev": "Zurück", "next": "Weiter", "seeResults": "Ergebnisse anzeigen" },
-      "results": { "title": "Ihr persönlicher Plan ist fertig!", "subtitle": "Basierend auf Ihren Bedürfnissen empfehlen wir diese Übungen", "yourProfile": "Ihr Profil", "match": "Übereinstimmung", "startNow": "Jetzt starten", "retake": "Test wiederholen" }
+  "nav": {
+    "home": "Startseite",
+    "exercises": "Gesichtsyoga",
+    "massage": "Massage",
+    "jawline": "Kieferlinie",
+    "about": "Über uns"
+  },
+  "hero": {
+    "title": "Natürliche Anti-Aging beginnt mit Gesichtsyoga",
+    "subtitle": "Wissenschaftlich bewährte Gesichts- und Yogatechniken zur Straffung der Kieferlinie",
+    "quizCta": "🧭 Schönheits-Guide",
+    "cta": "Jetzt Lernen"
+  },
+  "features": {
+    "title": "Warum Gesichtsyoga?",
+    "subtitle": "Natürliche, sichere und effektive Anti-Aging-Methoden",
+    "feature1": {
+      "title": "Wissenschaftlich Bewiesen",
+      "desc": "Basierend auf Anatomie und Muskelbewegungsprinzipien"
     },
+    "feature2": {
+      "title": "Leicht zu Lernen",
+      "desc": "Nur 10-15 Minuten täglich mit animierten Tutorials"
+    },
+    "feature3": {
+      "title": "Natürlich & Sicher",
+      "desc": "Ohne Operation oder Injektionen, natürliche Verbesserung"
+    },
+    "feature4": {
+      "title": "Überall & Jederzeit",
+      "desc": "Keine spezielle Ausrüstung erforderlich"
+    }
+  },
+  "exercises": {
+    "title": "Beliebte Übungen",
+    "subtitle": "Professionelles Training für verschiedene Gesichtsbereiche",
+    "viewAll": "Alle Anzeigen",
+    "exercise1": {
+      "name": "Kieferlinien-Straffung",
+      "duration": "5 Min",
+      "level": "Anfänger",
+      "desc": "Kieferlinie definieren, Doppelkinn reduzieren"
+    },
+    "exercise2": {
+      "name": "Stirnglättung",
+      "duration": "3 Min",
+      "level": "Anfänger",
+      "desc": "Stirnfalten reduzieren, Augenbrauen heben"
+    },
+    "exercise3": {
+      "name": "Wangenmodellierung",
+      "duration": "4 Min",
+      "level": "Mittelstufe",
+      "desc": "Mittelgesicht anheben"
+    },
+    "exercise4": {
+      "name": "Augenverjüngung",
+      "duration": "3 Min",
+      "level": "Anfänger",
+      "desc": "Tränensäcke und dunkle Augenringe reduzieren"
+    }
+  },
+  "steps": {
+    "title": "Wie man anfängt",
+    "step1": {
+      "title": "Übung Wählen",
+      "desc": "Wählen Sie Gesichtsyoga nach Ihren Bedürfnissen"
+    },
+    "step2": {
+      "title": "Animation Ansehen",
+      "desc": "Folgen Sie detaillierten animierten Demonstrationen"
+    },
+    "step3": {
+      "title": "Täglich Üben",
+      "desc": "Sichtbare Ergebnisse in 4-6 Wochen"
+    }
+  },
+  "quiz": {
+    "title": "Schönheits-Guide - Face Yoga Pro",
+    "progress": "Schritt {step} von 5",
+    "step1": {
+      "title": "Wählen Sie Ihr Geschlecht",
+      "subtitle": "Die Gesichtsmuskelstruktur variiert je nach Geschlecht"
+    },
+    "step2": {
+      "title": "Wie alt sind Sie?",
+      "subtitle": "Die Hautbedürfnisse ändern sich mit dem Alter"
+    },
+    "step3": {
+      "title": "Was möchten Sie verbessern?",
+      "subtitle": "Mehrfachauswahl möglich, wir erstellen Ihren Plan"
+    },
+    "step4": {
+      "title": "Wie viel Zeit können Sie investieren?",
+      "subtitle": "Wir passen die Übungen Ihrem Zeitplan an"
+    },
+    "step5": {
+      "title": "Was ist Ihr Hauptziel?",
+      "subtitle": "Wählen Sie die Option, die Ihren Erwartungen am besten entspricht"
+    },
+    "gender": {
+      "female": "Weiblich",
+      "male": "Männlich"
+    },
+    "concern": {
+      "wrinkles": "Falten & Linien",
+      "sagging": "Gesichtsschlaffheit",
+      "doubleChin": "Doppelkinn",
+      "jawline": "Kieferpartie",
+      "eyeBags": "Augenbeutel & dunkle Ringe",
+      "foreheadLines": "Stirnfalten"
+    },
+    "time": {
+      "min5": "5 Minuten",
+      "min5Desc": "Schnell",
+      "min10": "10 Minuten",
+      "min10Desc": "Empfohlen",
+      "min15": "15 Minuten",
+      "min15Desc": "Gründlich",
+      "min20": "20+ Minuten",
+      "min20Desc": "Vollständig"
+    },
+    "goal": {
+      "antiAging": "Anti-Aging",
+      "antiAgingDesc": "Alterserscheinungen verzögern",
+      "contouring": "Konturierung & Lifting",
+      "contouringDesc": "Gesichtsstruktur definieren",
+      "relaxation": "Entspannung",
+      "relaxationDesc": "Gesichtsspannungen lösen",
+      "radiance": "Strahlen",
+      "radianceDesc": "Hautton verbessern"
+    },
+    "nav": {
+      "prev": "Zurück",
+      "next": "Weiter",
+      "seeResults": "Ergebnisse anzeigen"
+    },
+    "results": {
+      "title": "Ihr persönlicher Plan ist fertig!",
+      "subtitle": "Basierend auf Ihren Bedürfnissen empfehlen wir diese Übungen",
+      "yourProfile": "Ihr Profil",
+      "match": "Übereinstimmung",
+      "startNow": "Jetzt starten",
+      "retake": "Test wiederholen"
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "tagline": "Natürliches Anti-Aging beginnt mit Gesichts-Yoga",
+    "courses": "Kurse",
+    "support": "Support"
+  },
+  "page": {
     "exercises": {
       "title": "Gesichts-Yoga-Übungen",
       "subtitle": "Wissenschaftlich gestaltetes Gesichtsmuskeltraining für natürliches Anti-Aging",
@@ -31,11 +165,26 @@
         "level": "Anfänger",
         "duration": "5 Min",
         "steps": [
-          {"title": "Ausgangsposition", "content": "Sitzen oder stehen Sie gerade, entspannen Sie die Schultern, halten Sie den Kopf zentriert."},
-          {"title": "Kinn anheben", "content": "Heben Sie das Kinn langsam an, spüren Sie die Dehnung an der Vorderseite des Halses, 5 Sekunden halten."},
-          {"title": "Lippen vorstülpen", "content": "Stülpen Sie die Lippen vor wie zum Pfeifen, spüren Sie die Kontraktion der Kiefermuskulatur."},
-          {"title": "Massage-Kombination", "content": "Massieren Sie sanft vom Kinn zu den Ohren zur Förderung des Lymphabflusses."},
-          {"title": "Wiederholen", "content": "Wiederholen Sie jede Bewegung 10-15 Mal, üben Sie 2-3 Sätze täglich."}
+          {
+            "title": "Ausgangsposition",
+            "content": "Sitzen oder stehen Sie gerade, entspannen Sie die Schultern, halten Sie den Kopf zentriert."
+          },
+          {
+            "title": "Kinn anheben",
+            "content": "Heben Sie das Kinn langsam an, spüren Sie die Dehnung an der Vorderseite des Halses, 5 Sekunden halten."
+          },
+          {
+            "title": "Lippen vorstülpen",
+            "content": "Stülpen Sie die Lippen vor wie zum Pfeifen, spüren Sie die Kontraktion der Kiefermuskulatur."
+          },
+          {
+            "title": "Massage-Kombination",
+            "content": "Massieren Sie sanft vom Kinn zu den Ohren zur Förderung des Lymphabflusses."
+          },
+          {
+            "title": "Wiederholen",
+            "content": "Wiederholen Sie jede Bewegung 10-15 Mal, üben Sie 2-3 Sätze täglich."
+          }
         ],
         "tips": [
           "Atmen Sie während der Übung ruhig und gleichmäßig",
@@ -50,10 +199,22 @@
         "level": "Anfänger",
         "duration": "3 Min",
         "steps": [
-          {"title": "Stirn entspannen", "content": "Legen Sie die Fingerspitzen auf die Stirn und drücken Sie sanft."},
-          {"title": "Nach außen streichen", "content": "Streichen Sie sanft von der Mitte der Augenbrauen zu den Schläfen, 10 Mal wiederholen."},
-          {"title": "Brauen-Lift", "content": "Drücken Sie unter den Augenbrauen und heben Sie sanft an, 5 Sekunden halten."},
-          {"title": "Stirn-Streckung", "content": "Kreuzen Sie die Hände auf der Stirn und strecken Sie die Kopfhaut sanft nach hinten."}
+          {
+            "title": "Stirn entspannen",
+            "content": "Legen Sie die Fingerspitzen auf die Stirn und drücken Sie sanft."
+          },
+          {
+            "title": "Nach außen streichen",
+            "content": "Streichen Sie sanft von der Mitte der Augenbrauen zu den Schläfen, 10 Mal wiederholen."
+          },
+          {
+            "title": "Brauen-Lift",
+            "content": "Drücken Sie unter den Augenbrauen und heben Sie sanft an, 5 Sekunden halten."
+          },
+          {
+            "title": "Stirn-Streckung",
+            "content": "Kreuzen Sie die Hände auf der Stirn und strecken Sie die Kopfhaut sanft nach hinten."
+          }
         ],
         "tips": [
           "Vermeiden Sie starkes Ziehen an der Haut",
@@ -67,10 +228,22 @@
         "level": "Mittelstufe",
         "duration": "4 Min",
         "steps": [
-          {"title": "Lächeln-Übung", "content": "Heben Sie die Mundwinkel, zeigen Sie die Zähne und lächeln Sie, 10 Sekunden halten."},
-          {"title": "Wangen aufblasen", "content": "Schließen Sie den Mund und blasen Sie Luft auf, bewegen Sie sie links und rechts."},
-          {"title": "Finger-Lift", "content": "Massieren Sie sanft von den Mundwinkeln zu den Schläfen."},
-          {"title": "Fischgesicht", "content": "Stülpen Sie die Lippen wie ein Fisch vor, spüren Sie die Kontraktion der Wangenmuskulatur."}
+          {
+            "title": "Lächeln-Übung",
+            "content": "Heben Sie die Mundwinkel, zeigen Sie die Zähne und lächeln Sie, 10 Sekunden halten."
+          },
+          {
+            "title": "Wangen aufblasen",
+            "content": "Schließen Sie den Mund und blasen Sie Luft auf, bewegen Sie sie links und rechts."
+          },
+          {
+            "title": "Finger-Lift",
+            "content": "Massieren Sie sanft von den Mundwinkeln zu den Schläfen."
+          },
+          {
+            "title": "Fischgesicht",
+            "content": "Stülpen Sie die Lippen wie ein Fisch vor, spüren Sie die Kontraktion der Wangenmuskulatur."
+          }
         ],
         "tips": [
           "Bessere Ergebnisse mit Gesichtsmassagecreme",
@@ -84,10 +257,22 @@
         "level": "Anfänger",
         "duration": "3 Min",
         "steps": [
-          {"title": "Bewegungsübung", "content": "Schließen Sie die Augen, rollen Sie sie 10 Mal im Uhrzeigersinn, dann gegen den Uhrzeigersinn."},
-          {"title": "Warme Kompresse", "content": "Legen Sie ein warmes Tuch 3 Minuten auf die Augen zur Förderung der Durchblutung."},
-          {"title": "Akupressur-Massage", "content": "Verwenden Sie den Ringfinger, um Akupressurpunkte sanft um die Augen zu drücken."},
-          {"title": "Blinzel-Übung", "content": "Blinzeln Sie 30 Mal schnell, schließen Sie dann die Augen und ruhen Sie 10 Sekunden."}
+          {
+            "title": "Bewegungsübung",
+            "content": "Schließen Sie die Augen, rollen Sie sie 10 Mal im Uhrzeigersinn, dann gegen den Uhrzeigersinn."
+          },
+          {
+            "title": "Warme Kompresse",
+            "content": "Legen Sie ein warmes Tuch 3 Minuten auf die Augen zur Förderung der Durchblutung."
+          },
+          {
+            "title": "Akupressur-Massage",
+            "content": "Verwenden Sie den Ringfinger, um Akupressurpunkte sanft um die Augen zu drücken."
+          },
+          {
+            "title": "Blinzel-Übung",
+            "content": "Blinzeln Sie 30 Mal schnell, schließen Sie dann die Augen und ruhen Sie 10 Sekunden."
+          }
         ],
         "tips": [
           "Ausreichender Schlaf ist die Grundlage",
@@ -97,8 +282,19 @@
         ]
       }
     },
-    "massage": { "title": "Gesichtsmassage-Techniken", "subtitle": "Professionelle Fähigkeiten zur Förderung der Durchblutung" },
-    "jawline": { "title": "Kieferlinien-Programm", "subtitle": "Spezialisiertes Trainingsprogramm" }
+    "massage": {
+      "title": "Gesichtsmassage-Techniken",
+      "subtitle": "Professionelle Fähigkeiten zur Förderung der Durchblutung"
+    },
+    "jawline": {
+      "title": "Kieferlinien-Programm",
+      "subtitle": "Spezialisiertes Trainingsprogramm"
+    }
   },
-  "animation": { "play": "Animation Abspielen", "pause": "Pause", "step": "Schritt", "tip": "Tipp" }
+  "animation": {
+    "play": "Animation Abspielen",
+    "pause": "Pause",
+    "step": "Schritt",
+    "tip": "Tipp"
+  }
 }

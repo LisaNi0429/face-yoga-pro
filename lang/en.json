@@ -76,6 +76,75 @@
       "desc": "See visible results in 4-6 weeks with daily practice"
     }
   },
+  "quiz": {
+    "title": "Beauty Guide - Face Yoga Pro",
+    "progress": "Step {step} of 5",
+    "step1": {
+      "title": "Select Your Gender",
+      "subtitle": "Facial muscle structure varies by gender"
+    },
+    "step2": {
+      "title": "What's Your Age Range?",
+      "subtitle": "Skin needs differ by age"
+    },
+    "step3": {
+      "title": "What Do You Want to Improve?",
+      "subtitle": "Select multiple, we'll customize your plan"
+    },
+    "step4": {
+      "title": "How Much Time Can You Commit?",
+      "subtitle": "We'll match exercises to your schedule"
+    },
+    "step5": {
+      "title": "What's Your Primary Goal?",
+      "subtitle": "Choose the option that best fits your expectations"
+    },
+    "gender": {
+      "female": "Female",
+      "male": "Male"
+    },
+    "concern": {
+      "wrinkles": "Wrinkles & Fine Lines",
+      "sagging": "Facial Sagging",
+      "doubleChin": "Double Chin",
+      "jawline": "Undefined Jawline",
+      "eyeBags": "Eye Bags & Dark Circles",
+      "foreheadLines": "Forehead Lines"
+    },
+    "time": {
+      "min5": "5 minutes",
+      "min5Desc": "Quick results",
+      "min10": "10 minutes",
+      "min10Desc": "Recommended",
+      "min15": "15 minutes",
+      "min15Desc": "Deep practice",
+      "min20": "20+ minutes",
+      "min20Desc": "Full care"
+    },
+    "goal": {
+      "antiAging": "Anti-Aging",
+      "antiAgingDesc": "Delay signs of aging",
+      "contouring": "Contouring & Lifting",
+      "contouringDesc": "Define facial structure",
+      "relaxation": "Relaxation",
+      "relaxationDesc": "Release facial tension",
+      "radiance": "Radiance",
+      "radianceDesc": "Improve skin tone"
+    },
+    "nav": {
+      "prev": "Previous",
+      "next": "Next",
+      "seeResults": "See Results"
+    },
+    "results": {
+      "title": "Your Personalized Plan is Ready!",
+      "subtitle": "Based on your needs, we recommend these exercises",
+      "yourProfile": "Your Profile",
+      "match": "Match",
+      "startNow": "Start Practicing Now",
+      "retake": "Retake Quiz"
+    }
+  },
   "footer": {
     "rights": "All rights reserved",
     "privacy": "Privacy Policy",
@@ -86,75 +155,6 @@
     "support": "Support"
   },
   "page": {
-    "quiz": {
-      "title": "Beauty Guide - Face Yoga Pro",
-      "progress": "Step {step} of 5",
-      "step1": {
-        "title": "Select Your Gender",
-        "subtitle": "Facial muscle structure varies by gender"
-      },
-      "step2": {
-        "title": "What's Your Age Range?",
-        "subtitle": "Skin needs differ by age"
-      },
-      "step3": {
-        "title": "What Do You Want to Improve?",
-        "subtitle": "Select multiple, we'll customize your plan"
-      },
-      "step4": {
-        "title": "How Much Time Can You Commit?",
-        "subtitle": "We'll match exercises to your schedule"
-      },
-      "step5": {
-        "title": "What's Your Primary Goal?",
-        "subtitle": "Choose the option that best fits your expectations"
-      },
-      "gender": {
-        "female": "Female",
-        "male": "Male"
-      },
-      "concern": {
-        "wrinkles": "Wrinkles & Fine Lines",
-        "sagging": "Facial Sagging",
-        "doubleChin": "Double Chin",
-        "jawline": "Undefined Jawline",
-        "eyeBags": "Eye Bags & Dark Circles",
-        "foreheadLines": "Forehead Lines"
-      },
-      "time": {
-        "min5": "5 minutes",
-        "min5Desc": "Quick results",
-        "min10": "10 minutes",
-        "min10Desc": "Recommended",
-        "min15": "15 minutes",
-        "min15Desc": "Deep practice",
-        "min20": "20+ minutes",
-        "min20Desc": "Full care"
-      },
-      "goal": {
-        "antiAging": "Anti-Aging",
-        "antiAgingDesc": "Delay signs of aging",
-        "contouring": "Contouring & Lifting",
-        "contouringDesc": "Define facial structure",
-        "relaxation": "Relaxation",
-        "relaxationDesc": "Release facial tension",
-        "radiance": "Radiance",
-        "radianceDesc": "Improve skin tone"
-      },
-      "nav": {
-        "prev": "Previous",
-        "next": "Next",
-        "seeResults": "See Results"
-      },
-      "results": {
-        "title": "Your Personalized Plan is Ready!",
-        "subtitle": "Based on your needs, we recommend these exercises",
-        "yourProfile": "Your Profile",
-        "match": "Match",
-        "startNow": "Start Practicing Now",
-        "retake": "Retake Quiz"
-      }
-    },
     "exercises": {
       "title": "Face Yoga Exercises",
       "subtitle": "Scientifically designed facial muscle training for natural anti-aging",
@@ -165,11 +165,26 @@
         "level": "Beginner",
         "duration": "5 min",
         "steps": [
-          {"title": "Starting Position", "content": "Sit straight or stand, relax your shoulders, keep your head centered."},
-          {"title": "Chin Up", "content": "Slowly raise your chin upward, feel the stretch in the front of your neck, hold for 5 seconds."},
-          {"title": "Lip Pout", "content": "Push your lips forward as if whistling, feel the contraction of your jaw muscles."},
-          {"title": "Massage Combo", "content": "Gently massage from your chin toward your ears to help lymphatic drainage."},
-          {"title": "Repeat", "content": "Repeat each movement 10-15 times, practice 2-3 sets daily."}
+          {
+            "title": "Starting Position",
+            "content": "Sit straight or stand, relax your shoulders, keep your head centered."
+          },
+          {
+            "title": "Chin Up",
+            "content": "Slowly raise your chin upward, feel the stretch in the front of your neck, hold for 5 seconds."
+          },
+          {
+            "title": "Lip Pout",
+            "content": "Push your lips forward as if whistling, feel the contraction of your jaw muscles."
+          },
+          {
+            "title": "Massage Combo",
+            "content": "Gently massage from your chin toward your ears to help lymphatic drainage."
+          },
+          {
+            "title": "Repeat",
+            "content": "Repeat each movement 10-15 times, practice 2-3 sets daily."
+          }
         ],
         "tips": [
           "Keep breathing steady during practice",
@@ -184,10 +199,22 @@
         "level": "Beginner",
         "duration": "3 min",
         "steps": [
-          {"title": "Relax Forehead", "content": "Place your fingertips on your forehead and press gently."},
-          {"title": "Smooth Outward", "content": "Gently smooth from the center of your brows toward your temples, repeat 10 times."},
-          {"title": "Brow Lift", "content": "Press below your eyebrows with your fingers and gently lift upward, hold for 5 seconds."},
-          {"title": "Forehead Stretch", "content": "Cross your hands on your forehead and gently stretch the scalp backward."}
+          {
+            "title": "Relax Forehead",
+            "content": "Place your fingertips on your forehead and press gently."
+          },
+          {
+            "title": "Smooth Outward",
+            "content": "Gently smooth from the center of your brows toward your temples, repeat 10 times."
+          },
+          {
+            "title": "Brow Lift",
+            "content": "Press below your eyebrows with your fingers and gently lift upward, hold for 5 seconds."
+          },
+          {
+            "title": "Forehead Stretch",
+            "content": "Cross your hands on your forehead and gently stretch the scalp backward."
+          }
         ],
         "tips": [
           "Avoid pulling or tugging the skin too hard",
@@ -201,10 +228,22 @@
         "level": "Intermediate",
         "duration": "4 min",
         "steps": [
-          {"title": "Smile Exercise", "content": "Raise the corners of your mouth, show your teeth, and smile, hold for 10 seconds."},
-          {"title": "Puff Cheeks", "content": "Close your mouth and puff air, moving it left and right to exercise cheek muscles."},
-          {"title": "Finger Lift", "content": "Gently lift and massage from the corners of your mouth toward your temples."},
-          {"title": "Fish Face", "content": "Pucker your lips like a fish, feel the contraction of your cheek muscles."}
+          {
+            "title": "Smile Exercise",
+            "content": "Raise the corners of your mouth, show your teeth, and smile, hold for 10 seconds."
+          },
+          {
+            "title": "Puff Cheeks",
+            "content": "Close your mouth and puff air, moving it left and right to exercise cheek muscles."
+          },
+          {
+            "title": "Finger Lift",
+            "content": "Gently lift and massage from the corners of your mouth toward your temples."
+          },
+          {
+            "title": "Fish Face",
+            "content": "Pucker your lips like a fish, feel the contraction of your cheek muscles."
+          }
         ],
         "tips": [
           "Better results with facial massage cream",
@@ -218,10 +257,22 @@
         "level": "Beginner",
         "duration": "3 min",
         "steps": [
-          {"title": "Eye Movement", "content": "Close your eyes, roll them clockwise 10 times, then counterclockwise 10 times."},
-          {"title": "Warm Compress", "content": "Apply a warm towel to your eyes for 3 minutes to promote blood circulation."},
-          {"title": "Acupressure Massage", "content": "Use your ring finger to gently press acupressure points around the eyes, from inner to outer corners."},
-          {"title": "Blink Exercise", "content": "Blink rapidly 30 times, then close your eyes and rest for 10 seconds."}
+          {
+            "title": "Eye Movement",
+            "content": "Close your eyes, roll them clockwise 10 times, then counterclockwise 10 times."
+          },
+          {
+            "title": "Warm Compress",
+            "content": "Apply a warm towel to your eyes for 3 minutes to promote blood circulation."
+          },
+          {
+            "title": "Acupressure Massage",
+            "content": "Use your ring finger to gently press acupressure points around the eyes, from inner to outer corners."
+          },
+          {
+            "title": "Blink Exercise",
+            "content": "Blink rapidly 30 times, then close your eyes and rest for 10 seconds."
+          }
         ],
         "tips": [
           "Adequate sleep is the foundation",

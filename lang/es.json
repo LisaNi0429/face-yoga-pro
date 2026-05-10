@@ -1,26 +1,160 @@
 {
-  "nav": { "home": "Inicio", "exercises": "Yoga Facial", "massage": "Masaje", "jawline": "Línea Mandibular", "about": "Acerca de" },
-  "hero": { "title": "El Anti-Envejecimiento Natural Comienza con el Yoga Facial", "subtitle": "Técnicas de masaje facial y yoga probadas científicamente para elevar tu línea mandibular y restaurar la juventud", "quizCta": "🧭 Guía de Belleza", "cta": "Comenzar a Aprender" },
-  "features": { "title": "¿Por Qué Elegir Yoga Facial?", "subtitle": "Métodos naturales, seguros y efectivos anti-envejecimiento facial", "feature1": { "title": "Probado Científicamente", "desc": "Basado en anatomía y principios de movimiento muscular" }, "feature2": { "title": "Fácil de Aprender", "desc": "Solo 10-15 minutos diarios con tutoriales animados" }, "feature3": { "title": "Natural y Seguro", "desc": "Sin cirugía ni inyecciones, mejora naturalmente" }, "feature4": { "title": "En Cualquier Lugar", "desc": "Sin equipos especiales, practica en casa u oficina" } },
-  "exercises": { "title": "Ejercicios Populares", "subtitle": "Entrenamiento profesional para diferentes áreas faciales", "viewAll": "Ver Todos", "exercise1": { "name": "Elevación Mandibular", "duration": "5 min", "level": "Principiante", "desc": "Definir línea mandibular, reducir papada" }, "exercise2": { "name": "Alisado de Frente", "duration": "3 min", "level": "Principiante", "desc": "Reducir arrugas, elevar cejas" }, "exercise3": { "name": "Esculpir Mejillas", "duration": "4 min", "level": "Intermedio", "desc": "Elevar zona media, restaurar contornos" }, "exercise4": { "name": "Rejuvenecimiento Ocular", "duration": "3 min", "level": "Principiante", "desc": "Reducir bolsas y ojeras" } },
-  "steps": { "title": "Cómo Empezar", "step1": { "title": "Elige Ejercicio", "desc": "Selecciona yoga facial según tus necesidades" }, "step2": { "title": "Mira Animación", "desc": "Sigue demostraciones animadas detalladas" }, "step3": { "title": "Practica Diario", "desc": "Resultados visibles en 4-6 semanas" } },
-  "footer": { "rights": "Todos los derechos reservados", "privacy": "Política de Privacidad", "terms": "Términos de Uso", "contact": "Contáctanos", "tagline": "El anti-envejecimiento natural comienza con el yoga facial", "courses": "Cursos", "support": "Soporte" },
-  "page": {
-    "quiz": {
-      "title": "Guía de Belleza - Face Yoga Pro",
-      "progress": "Paso {step} de 5",
-      "step1": { "title": "Seleccione su género", "subtitle": "La estructura muscular facial varía según el género" },
-      "step2": { "title": "¿Cuál es su rango de edad?", "subtitle": "Las necesidades de la piel varían con la edad" },
-      "step3": { "title": "¿Qué desea mejorar?", "subtitle": "Selección múltiple, personalizaremos su plan" },
-      "step4": { "title": "¿Cuánto tiempo puede dedicar?", "subtitle": "Adaptaremos los ejercicios a su horario" },
-      "step5": { "title": "¿Cuál es su objetivo principal?", "subtitle": "Elija la opción que mejor se adapte a sus expectativas" },
-      "gender": { "female": "Femenino", "male": "Masculino" },
-      "concern": { "wrinkles": "Arrugas y líneas finas", "sagging": "Flacidez facial", "doubleChin": "Papada", "jawline": "Línea de la mandíbula", "eyeBags": "Bolsas y ojeras", "foreheadLines": "Líneas de la frente" },
-      "time": { "min5": "5 minutos", "min5Desc": "Resultados rápidos", "min10": "10 minutos", "min10Desc": "Recomendado", "min15": "15 minutos", "min15Desc": "Práctica profunda", "min20": "20+ minutos", "min20Desc": "Cuidado completo" },
-      "goal": { "antiAging": "Anti-edad", "antiAgingDesc": "Retrasar signos de envejecimiento", "contouring": "Contorno y lifting", "contouringDesc": "Definir estructura facial", "relaxation": "Relajación", "relaxationDesc": "Liberar tensión facial", "radiance": "Resplandor", "radianceDesc": "Mejorar tono de piel" },
-      "nav": { "prev": "Anterior", "next": "Siguiente", "seeResults": "Ver resultados" },
-      "results": { "title": "¡Su plan personalizado está listo!", "subtitle": "Basado en sus necesidades, recomendamos estos ejercicios", "yourProfile": "Su perfil", "match": "Coincidencia", "startNow": "Comenzar ahora", "retake": "Repetir test" }
+  "nav": {
+    "home": "Inicio",
+    "exercises": "Yoga Facial",
+    "massage": "Masaje",
+    "jawline": "Línea Mandibular",
+    "about": "Acerca de"
+  },
+  "hero": {
+    "title": "El Anti-Envejecimiento Natural Comienza con el Yoga Facial",
+    "subtitle": "Técnicas de masaje facial y yoga probadas científicamente para elevar tu línea mandibular y restaurar la juventud",
+    "quizCta": "🧭 Guía de Belleza",
+    "cta": "Comenzar a Aprender"
+  },
+  "features": {
+    "title": "¿Por Qué Elegir Yoga Facial?",
+    "subtitle": "Métodos naturales, seguros y efectivos anti-envejecimiento facial",
+    "feature1": {
+      "title": "Probado Científicamente",
+      "desc": "Basado en anatomía y principios de movimiento muscular"
     },
+    "feature2": {
+      "title": "Fácil de Aprender",
+      "desc": "Solo 10-15 minutos diarios con tutoriales animados"
+    },
+    "feature3": {
+      "title": "Natural y Seguro",
+      "desc": "Sin cirugía ni inyecciones, mejora naturalmente"
+    },
+    "feature4": {
+      "title": "En Cualquier Lugar",
+      "desc": "Sin equipos especiales, practica en casa u oficina"
+    }
+  },
+  "exercises": {
+    "title": "Ejercicios Populares",
+    "subtitle": "Entrenamiento profesional para diferentes áreas faciales",
+    "viewAll": "Ver Todos",
+    "exercise1": {
+      "name": "Elevación Mandibular",
+      "duration": "5 min",
+      "level": "Principiante",
+      "desc": "Definir línea mandibular, reducir papada"
+    },
+    "exercise2": {
+      "name": "Alisado de Frente",
+      "duration": "3 min",
+      "level": "Principiante",
+      "desc": "Reducir arrugas, elevar cejas"
+    },
+    "exercise3": {
+      "name": "Esculpir Mejillas",
+      "duration": "4 min",
+      "level": "Intermedio",
+      "desc": "Elevar zona media, restaurar contornos"
+    },
+    "exercise4": {
+      "name": "Rejuvenecimiento Ocular",
+      "duration": "3 min",
+      "level": "Principiante",
+      "desc": "Reducir bolsas y ojeras"
+    }
+  },
+  "steps": {
+    "title": "Cómo Empezar",
+    "step1": {
+      "title": "Elige Ejercicio",
+      "desc": "Selecciona yoga facial según tus necesidades"
+    },
+    "step2": {
+      "title": "Mira Animación",
+      "desc": "Sigue demostraciones animadas detalladas"
+    },
+    "step3": {
+      "title": "Practica Diario",
+      "desc": "Resultados visibles en 4-6 semanas"
+    }
+  },
+  "quiz": {
+    "title": "Guía de Belleza - Face Yoga Pro",
+    "progress": "Paso {step} de 5",
+    "step1": {
+      "title": "Seleccione su género",
+      "subtitle": "La estructura muscular facial varía según el género"
+    },
+    "step2": {
+      "title": "¿Cuál es su rango de edad?",
+      "subtitle": "Las necesidades de la piel varían con la edad"
+    },
+    "step3": {
+      "title": "¿Qué desea mejorar?",
+      "subtitle": "Selección múltiple, personalizaremos su plan"
+    },
+    "step4": {
+      "title": "¿Cuánto tiempo puede dedicar?",
+      "subtitle": "Adaptaremos los ejercicios a su horario"
+    },
+    "step5": {
+      "title": "¿Cuál es su objetivo principal?",
+      "subtitle": "Elija la opción que mejor se adapte a sus expectativas"
+    },
+    "gender": {
+      "female": "Femenino",
+      "male": "Masculino"
+    },
+    "concern": {
+      "wrinkles": "Arrugas y líneas finas",
+      "sagging": "Flacidez facial",
+      "doubleChin": "Papada",
+      "jawline": "Línea de la mandíbula",
+      "eyeBags": "Bolsas y ojeras",
+      "foreheadLines": "Líneas de la frente"
+    },
+    "time": {
+      "min5": "5 minutos",
+      "min5Desc": "Resultados rápidos",
+      "min10": "10 minutos",
+      "min10Desc": "Recomendado",
+      "min15": "15 minutos",
+      "min15Desc": "Práctica profunda",
+      "min20": "20+ minutos",
+      "min20Desc": "Cuidado completo"
+    },
+    "goal": {
+      "antiAging": "Anti-edad",
+      "antiAgingDesc": "Retrasar signos de envejecimiento",
+      "contouring": "Contorno y lifting",
+      "contouringDesc": "Definir estructura facial",
+      "relaxation": "Relajación",
+      "relaxationDesc": "Liberar tensión facial",
+      "radiance": "Resplandor",
+      "radianceDesc": "Mejorar tono de piel"
+    },
+    "nav": {
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "seeResults": "Ver resultados"
+    },
+    "results": {
+      "title": "¡Su plan personalizado está listo!",
+      "subtitle": "Basado en sus necesidades, recomendamos estos ejercicios",
+      "yourProfile": "Su perfil",
+      "match": "Coincidencia",
+      "startNow": "Comenzar ahora",
+      "retake": "Repetir test"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "contact": "Contáctanos",
+    "tagline": "El anti-envejecimiento natural comienza con el yoga facial",
+    "courses": "Cursos",
+    "support": "Soporte"
+  },
+  "page": {
     "exercises": {
       "title": "Ejercicios de Yoga Facial",
       "subtitle": "Entrenamiento muscular facial diseñado científicamente para un anti-envejecimiento natural",
@@ -31,11 +165,26 @@
         "level": "Principiante",
         "duration": "5 min",
         "steps": [
-          {"title": "Posición inicial", "content": "Siéntate recto o de pie, relaja los hombros, mantiene la cabeza centrada."},
-          {"title": "Elevar la barbilla", "content": "Sube lentamente la barbilla, siente el estiramiento en la parte frontal del cuello, mantén 5 segundos."},
-          {"title": "Labios hacia adelante", "content": "Empuja los labios hacia adelante como para silbar, siente la contracción de los músculos de la mandíbula."},
-          {"title": "Masaje complementario", "content": "Masajea suavemente desde la barbilla hacia las orejas para ayudar al drenaje linfático."},
-          {"title": "Repetir", "content": "Repite cada movimiento 10-15 veces, practica 2-3 series al día."}
+          {
+            "title": "Posición inicial",
+            "content": "Siéntate recto o de pie, relaja los hombros, mantiene la cabeza centrada."
+          },
+          {
+            "title": "Elevar la barbilla",
+            "content": "Sube lentamente la barbilla, siente el estiramiento en la parte frontal del cuello, mantén 5 segundos."
+          },
+          {
+            "title": "Labios hacia adelante",
+            "content": "Empuja los labios hacia adelante como para silbar, siente la contracción de los músculos de la mandíbula."
+          },
+          {
+            "title": "Masaje complementario",
+            "content": "Masajea suavemente desde la barbilla hacia las orejas para ayudar al drenaje linfático."
+          },
+          {
+            "title": "Repetir",
+            "content": "Repite cada movimiento 10-15 veces, practica 2-3 series al día."
+          }
         ],
         "tips": [
           "Mantén la respiración estable durante la práctica",
@@ -50,10 +199,22 @@
         "level": "Principiante",
         "duration": "3 min",
         "steps": [
-          {"title": "Relajar la frente", "content": "Coloca las yemas de los dedos en la frente y presiona suavemente."},
-          {"title": "Suavizar hacia afuera", "content": "Suaviza desde el centro de las cejas hacia las sienes, repite 10 veces."},
-          {"title": "Elevación de cejas", "content": "Presiona debajo de las cejas con los dedos y levanta suavemente, mantén 5 segundos."},
-          {"title": "Estiramiento frontal", "content": "Cruza las manos sobre la frente y estira suavemente el cuero cabelludo hacia atrás."}
+          {
+            "title": "Relajar la frente",
+            "content": "Coloca las yemas de los dedos en la frente y presiona suavemente."
+          },
+          {
+            "title": "Suavizar hacia afuera",
+            "content": "Suaviza desde el centro de las cejas hacia las sienes, repite 10 veces."
+          },
+          {
+            "title": "Elevación de cejas",
+            "content": "Presiona debajo de las cejas con los dedos y levanta suavemente, mantén 5 segundos."
+          },
+          {
+            "title": "Estiramiento frontal",
+            "content": "Cruza las manos sobre la frente y estira suavemente el cuero cabelludo hacia atrás."
+          }
         ],
         "tips": [
           "Evita tirar o arrastrar la piel con fuerza",
@@ -67,10 +228,22 @@
         "level": "Intermedio",
         "duration": "4 min",
         "steps": [
-          {"title": "Ejercicio de sonrisa", "content": "Levanta las comisuras de los labios, muestra los dientes y sonríe, mantén 10 segundos."},
-          {"title": "Inflar las mejillas", "content": "Cierra la boca e infla aire, moviéndolo de lado a lado para ejercitar los músculos de las mejillas."},
-          {"title": "Elevación con dedos", "content": "Masajea suavemente desde las comisuras de los labios hacia las sientes."},
-          {"title": "Cara de pez", "content": "Pronuncia los labios como un pez, siente la contracción de los músculos de las mejillas."}
+          {
+            "title": "Ejercicio de sonrisa",
+            "content": "Levanta las comisuras de los labios, muestra los dientes y sonríe, mantén 10 segundos."
+          },
+          {
+            "title": "Inflar las mejillas",
+            "content": "Cierra la boca e infla aire, moviéndolo de lado a lado para ejercitar los músculos de las mejillas."
+          },
+          {
+            "title": "Elevación con dedos",
+            "content": "Masajea suavemente desde las comisuras de los labios hacia las sientes."
+          },
+          {
+            "title": "Cara de pez",
+            "content": "Pronuncia los labios como un pez, siente la contracción de los músculos de las mejillas."
+          }
         ],
         "tips": [
           "Mejores resultados con crema de masaje facial",
@@ -84,10 +257,22 @@
         "level": "Principiante",
         "duration": "3 min",
         "steps": [
-          {"title": "Movimiento ocular", "content": "Cierra los ojos, gíralos en sentido horario 10 veces y luego en sentido antihorario 10 veces."},
-          {"title": "Compresa caliente", "content": "Aplica una toalla tibia sobre los ojos durante 3 minutos para promover la circulación."},
-          {"title": "Masaje de acupresión", "content": "Usa el dedo anular para presionar suavemente los puntos de acupresión alrededor de los ojos."},
-          {"title": "Ejercicio de parpadeo", "content": "Parpadea rápidamente 30 veces, luego cierra los ojos y descansa 10 segundos."}
+          {
+            "title": "Movimiento ocular",
+            "content": "Cierra los ojos, gíralos en sentido horario 10 veces y luego en sentido antihorario 10 veces."
+          },
+          {
+            "title": "Compresa caliente",
+            "content": "Aplica una toalla tibia sobre los ojos durante 3 minutos para promover la circulación."
+          },
+          {
+            "title": "Masaje de acupresión",
+            "content": "Usa el dedo anular para presionar suavemente los puntos de acupresión alrededor de los ojos."
+          },
+          {
+            "title": "Ejercicio de parpadeo",
+            "content": "Parpadea rápidamente 30 veces, luego cierra los ojos y descansa 10 segundos."
+          }
         ],
         "tips": [
           "El sueño adecuado es fundamental",
@@ -97,8 +282,19 @@
         ]
       }
     },
-    "massage": { "title": "Técnicas de Masaje Facial", "subtitle": "Habilidades profesionales para promover circulación" },
-    "jawline": { "title": "Programa de Línea Mandibular", "subtitle": "Plan de entrenamiento especializado" }
+    "massage": {
+      "title": "Técnicas de Masaje Facial",
+      "subtitle": "Habilidades profesionales para promover circulación"
+    },
+    "jawline": {
+      "title": "Programa de Línea Mandibular",
+      "subtitle": "Plan de entrenamiento especializado"
+    }
   },
-  "animation": { "play": "Reproducir Animación", "pause": "Pausar", "step": "Paso", "tip": "Consejo" }
+  "animation": {
+    "play": "Reproducir Animación",
+    "pause": "Pausar",
+    "step": "Paso",
+    "tip": "Consejo"
+  }
 }
