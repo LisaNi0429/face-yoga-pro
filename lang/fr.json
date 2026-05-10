@@ -282,6 +282,36 @@
         ]
       }
     },
+    "about": {
+      "title": "À Propos",
+      "subtitle": "Dédiés à aider chacun à retrouver un éclat jeune par des méthodes naturelles",
+      "mission": {
+        "title": "Notre Mission",
+        "p1": "Face Yoga Pro s'engage à fournir des tutoriels de yoga facial et de massage scientifiquement validés aux utilisateurs du monde entier. Nous croyons que chacun mérite une apparence saine, jeune et confiante.",
+        "p2": "Notre équipe est composée d'experts en anatomie faciale, d'instructeurs de yoga et de spécialistes de la beauté. Tous les tutoriels sont vérifiés professionnellement pour garantir sécurité et efficacité."
+      },
+      "values": {
+        "title": "Nos Valeurs",
+        "value1": { "title": "Basé sur la Science", "desc": "Tous les exercices sont basés sur les principes d'anatomie et de science de l'exercice" },
+        "value2": { "title": "Naturel et Sûr", "desc": "Promotion de méthodes anti-âge naturelles sans chirurgie ni injections" },
+        "value3": { "title": "Accessible Mondialement", "desc": "Supportant 11 langues pour servir les utilisateurs du monde entier" },
+        "value4": { "title": "Utilisateur d'Abord", "desc": "Optimisation continue du contenu pour fournir la meilleure expérience" }
+      },
+      "features": {
+        "title": "Fonctionnalités de la Plateforme",
+        "f1": "Tutoriels Animés - Animations SVG intuitives pour un apprentissage facile",
+        "f2": "Support Multi-langues - Supportant 11 langues avec détection automatique",
+        "f3": "SEO Optimisé - Compatible avec les moteurs de recherche AI, support de données structurées",
+        "f4": "Design Responsive - Parfaitement adapté pour ordinateur, tablette et mobile",
+        "f5": "Accessibilité - Conforme WCAG, compatible avec les lecteurs d'écran"
+      },
+      "contact": {
+        "title": "Contactez-nous",
+        "desc": "Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter:",
+        "email": "📧 Email: contact@faceyoga.pro",
+        "website": "🌐 Website: www.faceyoga.pro"
+      }
+    },
     "massage": {
       "title": "Techniques de Massage Facial",
       "subtitle": "Compétences professionnelles pour la circulation"

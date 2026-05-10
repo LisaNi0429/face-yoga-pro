@@ -282,6 +282,36 @@
         ]
       }
     },
+    "about": {
+      "title": "About Us",
+      "subtitle": "Dedicated to helping everyone achieve youthful radiance through natural methods",
+      "mission": {
+        "title": "Our Mission",
+        "p1": "Face Yoga Pro is committed to providing scientifically validated face yoga and massage tutorials to users worldwide. We believe everyone deserves a healthy, youthful, and confident appearance, achievable through natural and safe methods.",
+        "p2": "Our team consists of facial anatomy experts, yoga instructors, and beauty specialists. All tutorials are professionally verified to ensure safety and effectiveness."
+      },
+      "values": {
+        "title": "Our Values",
+        "value1": { "title": "Science-Based", "desc": "All exercises are based on anatomy and exercise science principles" },
+        "value2": { "title": "Natural & Safe", "desc": "Promoting natural anti-aging methods without surgery or injections" },
+        "value3": { "title": "Globally Accessible", "desc": "Supporting 11 languages to serve users worldwide" },
+        "value4": { "title": "User First", "desc": "Continuously optimizing content to provide the best user experience" }
+      },
+      "features": {
+        "title": "Platform Features",
+        "f1": "Animated Tutorials - Intuitive SVG animations for easy learning of each movement",
+        "f2": "Multi-language Support - Supporting 11 languages with automatic language detection",
+        "f3": "SEO Optimized - AI search engine friendly with structured data support",
+        "f4": "Responsive Design - Perfectly adapted for desktop, tablet, and mobile",
+        "f5": "Accessibility - WCAG compliant, supporting screen readers"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "desc": "If you have any questions or suggestions, please feel free to contact us:",
+        "email": "📧 Email: contact@faceyoga.pro",
+        "website": "🌐 Website: www.faceyoga.pro"
+      }
+    },
     "massage": {
       "title": "Facial Massage Techniques",
       "subtitle": "Professional massage skills to promote circulation and skin elasticity"

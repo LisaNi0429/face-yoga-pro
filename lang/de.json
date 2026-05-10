@@ -282,6 +282,36 @@
         ]
       }
     },
+    "about": {
+      "title": "Über Uns",
+      "subtitle": "Engagiert dafür, jedem zu helfen, durch natürliche Methoden jugendlichen Glanz zu erlangen",
+      "mission": {
+        "title": "Unsere Mission",
+        "p1": "Face Yoga Pro ist bestrebt, weltweit wissenschaftlich validierte Gesichts-Yoga- und Massage-Tutorials anzubieten. Wir glauben, dass jeder eine gesunde, jugendliche und selbstbewusste Erscheinung verdient.",
+        "p2": "Unser Team besteht aus Gesichtsanatomie-Experten, Yoga-Lehrern und Beautyspezialisten. Alle Tutorials werden professionell überprüft, um Sicherheit und Wirksamkeit zu gewährleisten."
+      },
+      "values": {
+        "title": "Unsere Werte",
+        "value1": { "title": "Wissenschaftsbasiert", "desc": "Alle Übungen basieren auf Anatomie- und Sportwissenschaftsprinzipien" },
+        "value2": { "title": "Natürlich und Sicher", "desc": "Förderung natürlicher Anti-Aging-Methoden ohne Operation oder Injektionen" },
+        "value3": { "title": "Weltweit Zugänglich", "desc": "Unterstützung von 11 Sprachen für Nutzer weltweit" },
+        "value4": { "title": "Nutzer im Fokus", "desc": "Kontinuierliche Optimierung der Inhalte für die beste Erfahrung" }
+      },
+      "features": {
+        "title": "Plattform-Funktionen",
+        "f1": "Animierte Tutorials - Intuitive SVG-Animationen für einfaches Lernen",
+        "f2": "Mehrsprachige Unterstützung - Unterstützung von 11 Sprachen mit automatischer Erkennung",
+        "f3": "SEO-Optimiert - KI-Suchmaschinenfreundlich, Unterstützung strukturierter Daten",
+        "f4": "Responsives Design - Perfekt angepasst für Desktop, Tablet und Mobil",
+        "f5": "Barrierefreiheit - WCAG-konform, unterstützt Bildschirmleser"
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "desc": "Wenn Sie Fragen oder Vorschläge haben, kontaktieren Sie uns gerne:",
+        "email": "📧 Email: contact@faceyoga.pro",
+        "website": "🌐 Website: www.faceyoga.pro"
+      }
+    },
     "massage": {
       "title": "Gesichtsmassage-Techniken",
       "subtitle": "Professionelle Fähigkeiten zur Förderung der Durchblutung"
