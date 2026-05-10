@@ -5,6 +5,85 @@
   "exercises": { "title": "Exercícios Populares", "subtitle": "Treino profissional para diferentes áreas faciais", "viewAll": "Ver Todos", "exercise1": { "name": "Elevação do Maxilar", "duration": "5 min", "level": "Iniciante", "desc": "Definir linha do maxilar, reduzir papada" }, "exercise2": { "name": "Alisamento da Testa", "duration": "3 min", "level": "Iniciante", "desc": "Reduzir rugas, elevar sobrancelhas" }, "exercise3": { "name": "Escultura das Bochechas", "duration": "4 min", "level": "Intermediário", "desc": "Elevar região média do rosto" }, "exercise4": { "name": "Rejuvenescimento Ocular", "duration": "3 min", "level": "Iniciante", "desc": "Reduzir bolsas e olheiras" } },
   "steps": { "title": "Como Começar", "step1": { "title": "Escolher Exercício", "desc": "Selecione ioga facial conforme suas necessidades" }, "step2": { "title": "Assistir Animação", "desc": "Siga demonstrações animadas detalhadas" }, "step3": { "title": "Praticar Diariamente", "desc": "Resultados visíveis em 4-6 semanas" } },
   "footer": { "rights": "Todos os direitos reservados", "privacy": "Política de Privacidade", "terms": "Termos de Uso", "contact": "Contate-nos" },
-  "page": { "exercises": { "title": "Exercícios de Ioga Facial", "subtitle": "Treino muscular facial cientificamente projetado" }, "massage": { "title": "Técnicas de Massagem Facial", "subtitle": "Habilidades profissionais para promover circulação" }, "jawline": { "title": "Programa de Linha do Maxilar", "subtitle": "Plano de treino especializado" } },
+  "page": {
+    "exercises": {
+      "title": "Exercícios de Yoga Facial",
+      "subtitle": "Treinamento muscular facial cientificamente projetado para anti-envelhecimento natural",
+      "stepsTitle": "Passos de prática",
+      "exercise1": {
+        "name": "Lift da linha da mandíbula",
+        "fullDesc": "Defina a linha da mandíbula, elimine o papo e esculpa um perfil perfeito",
+        "level": "Iniciante",
+        "duration": "5 min",
+        "steps": [
+          {"title": "Posição inicial", "content": "Sente-se ou fique em pé com a coluna reta, relaxe os ombros, mantenha a cabeça centrada."},
+          {"title": "Elevar o queixo", "content": "Levante lentamente o queixo, sinta o alongamento na frente do pescoço, segure por 5 segundos."},
+          {"title": "Projetar os lábios", "content": "Projete os lábios para frente como para assobiar, sinta a contração dos músculos da mandíbula."},
+          {"title": "Massagem complementar", "content": "Massageie suavemente do queixo em direção às orelhas para ajudar a drenagem linfática."},
+          {"title": "Repetir", "content": "Repita cada movimento 10-15 vezes, pratique 2-3 séries por dia."}
+        ],
+        "tips": [
+          "Mantenha a respiração estável durante a prática",
+          "Os movimentos devem ser lentos e controlados",
+          "Melhores resultados combinados com massagem",
+          "Resultados visíveis em 4-6 semanas com constância"
+        ]
+      },
+      "exercise2": {
+        "name": "Suavização da testa",
+        "fullDesc": "Reduza rugas na testa, levante as sobrancelhas e revele um brilho juvenil",
+        "level": "Iniciante",
+        "duration": "3 min",
+        "steps": [
+          {"title": "Relaxar a testa", "content": "Coloque as pontas dos dedos na testa e pressione suavemente."},
+          {"title": "Suavizar para fora", "content": "Suavize do centro das sobrancelhas em direção às têmporas, repita 10 vezes."},
+          {"title": "Lift das sobrancelhas", "content": "Pressione sob as sobrancelhas e levante suavemente, segure por 5 segundos."},
+          {"title": "Alongamento frontal", "content": "Cruze as mãos sobre a testa e estique suavemente o couro cabeludo para trás."}
+        ],
+        "tips": [
+          "Evite puxar ou arrastar a pele com força",
+          "Use óleo ou creme de massagem para reduzir o atrito",
+          "Melhores resultados de manhã e à noite"
+        ]
+      },
+      "exercise3": {
+        "name": "Esculpimento das bochechas",
+        "fullDesc": "Levante a região média do rosto e restaure bochechas jovens e firmes",
+        "level": "Intermediário",
+        "duration": "4 min",
+        "steps": [
+          {"title": "Exercício de sorriso", "content": "Levante os cantos da boca, mostre os dentes e sorria, segure por 10 segundos."},
+          {"title": "Inflar as bochechas", "content": "Feche a boca e infle ar, movendo de um lado para o outro para exercitar os músculos."},
+          {"title": "Lift digital", "content": "Massageie suavemente dos cantos da boca em direção às têmporas."},
+          {"title": "Cara de peixe", "content": "Projeite os lábios como um peixe, sinta a contração dos músculos das bochechas."}
+        ],
+        "tips": [
+          "Melhores resultados com creme de massagem facial",
+          "Mantenha movimentos suaves, evite puxar a pele",
+          "A prática regular pode melhorar a flacidez facial"
+        ]
+      },
+      "exercise4": {
+        "name": "Rejuvenescimento ocular",
+        "fullDesc": "Elimine olheiras e bolsas para olhos mais brilhantes e radiantes",
+        "level": "Iniciante",
+        "duration": "3 min",
+        "steps": [
+          {"title": "Movimento ocular", "content": "Feche os olhos, gire-os no sentido horário 10 vezes e no anti-horário 10 vezes."},
+          {"title": "Compressa quente", "content": "Aplique uma toalha quente nos olhos por 3 minutos para promover a circulação."},
+          {"title": "Massagem por acupressão", "content": "Use o dedo anular para pressionar suavemente os pontos de acupressão ao redor dos olhos."},
+          {"title": "Exercício de piscar", "content": "Pisque rapidamente 30 vezes, depois feche os olhos e descanse por 10 segundos."}
+        ],
+        "tips": [
+          "Sono adequado é fundamental",
+          "Use creme para os olhos com massagem para melhores resultados",
+          "Reduza o tempo de tela",
+          "Beba muita água para manter a pele hidratada"
+        ]
+      }
+    },
+    "massage": { "title": "Técnicas de Massagem Facial", "subtitle": "Habilidades profissionais para promover circulação" },
+    "jawline": { "title": "Programa de Linha do Maxilar", "subtitle": "Plano de treino especializado" }
+  },
   "animation": { "play": "Reproduzir Animação", "pause": "Pausar", "step": "Passo", "tip": "Dica" }
 }

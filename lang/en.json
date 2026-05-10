@@ -84,7 +84,79 @@
   "page": {
     "exercises": {
       "title": "Face Yoga Exercises",
-      "subtitle": "Scientifically designed facial muscle training for natural anti-aging"
+      "subtitle": "Scientifically designed facial muscle training for natural anti-aging",
+      "stepsTitle": "Practice Steps",
+      "exercise1": {
+        "name": "Jawline Lift",
+        "fullDesc": "Define your jawline, eliminate double chin, and sculpt a perfect side profile",
+        "level": "Beginner",
+        "duration": "5 min",
+        "steps": [
+          {"title": "Starting Position", "content": "Sit straight or stand, relax your shoulders, keep your head centered."},
+          {"title": "Chin Up", "content": "Slowly raise your chin upward, feel the stretch in the front of your neck, hold for 5 seconds."},
+          {"title": "Lip Pout", "content": "Push your lips forward as if whistling, feel the contraction of your jaw muscles."},
+          {"title": "Massage Combo", "content": "Gently massage from your chin toward your ears to help lymphatic drainage."},
+          {"title": "Repeat", "content": "Repeat each movement 10-15 times, practice 2-3 sets daily."}
+        ],
+        "tips": [
+          "Keep breathing steady during practice",
+          "Movements should be slow and controlled",
+          "Better results when combined with massage",
+          "Visible results in 4-6 weeks with consistency"
+        ]
+      },
+      "exercise2": {
+        "name": "Forehead Smoothing",
+        "fullDesc": "Reduce forehead wrinkles, lift your brows, and reveal a youthful glow",
+        "level": "Beginner",
+        "duration": "3 min",
+        "steps": [
+          {"title": "Relax Forehead", "content": "Place your fingertips on your forehead and press gently."},
+          {"title": "Smooth Outward", "content": "Gently smooth from the center of your brows toward your temples, repeat 10 times."},
+          {"title": "Brow Lift", "content": "Press below your eyebrows with your fingers and gently lift upward, hold for 5 seconds."},
+          {"title": "Forehead Stretch", "content": "Cross your hands on your forehead and gently stretch the scalp backward."}
+        ],
+        "tips": [
+          "Avoid pulling or tugging the skin too hard",
+          "Use massage oil or cream to reduce friction",
+          "Best results when done morning and evening"
+        ]
+      },
+      "exercise3": {
+        "name": "Cheek Sculpting",
+        "fullDesc": "Lift the mid-face and restore youthful, plump apple cheeks",
+        "level": "Intermediate",
+        "duration": "4 min",
+        "steps": [
+          {"title": "Smile Exercise", "content": "Raise the corners of your mouth, show your teeth, and smile, hold for 10 seconds."},
+          {"title": "Puff Cheeks", "content": "Close your mouth and puff air, moving it left and right to exercise cheek muscles."},
+          {"title": "Finger Lift", "content": "Gently lift and massage from the corners of your mouth toward your temples."},
+          {"title": "Fish Face", "content": "Pucker your lips like a fish, feel the contraction of your cheek muscles."}
+        ],
+        "tips": [
+          "Better results with facial massage cream",
+          "Keep movements gentle, avoid pulling skin",
+          "Consistent practice can improve facial sagging"
+        ]
+      },
+      "exercise4": {
+        "name": "Eye Rejuvenation",
+        "fullDesc": "Eliminate eye bags and dark circles for brighter, more radiant eyes",
+        "level": "Beginner",
+        "duration": "3 min",
+        "steps": [
+          {"title": "Eye Movement", "content": "Close your eyes, roll them clockwise 10 times, then counterclockwise 10 times."},
+          {"title": "Warm Compress", "content": "Apply a warm towel to your eyes for 3 minutes to promote blood circulation."},
+          {"title": "Acupressure Massage", "content": "Use your ring finger to gently press acupressure points around the eyes, from inner to outer corners."},
+          {"title": "Blink Exercise", "content": "Blink rapidly 30 times, then close your eyes and rest for 10 seconds."}
+        ],
+        "tips": [
+          "Adequate sleep is the foundation",
+          "Use eye cream with massage for better results",
+          "Reduce screen time",
+          "Drink plenty of water to keep skin hydrated"
+        ]
+      }
     },
     "massage": {
       "title": "Facial Massage Techniques",

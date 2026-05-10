@@ -108,11 +108,11 @@
             <section id="jawline" class="exercise-section" aria-labelledby="ex1-title">
                 <div class="exercise-header">
                     <div class="exercise-meta">
-                        <span class="exercise-level beginner">初级</span>
-                        <span class="exercise-duration">5分钟</span>
+                        <span class="exercise-level beginner" data-i18n="page.exercises.exercise1.level">初级</span>
+                        <span class="exercise-duration" data-i18n="page.exercises.exercise1.duration">5分钟</span>
                     </div>
-                    <h2 id="ex1-title" class="exercise-title">下颌线提升</h2>
-                    <p class="exercise-description">紧致下颌线条，消除双下巴，塑造完美侧颜</p>
+                    <h2 id="ex1-title" class="exercise-title" data-i18n="page.exercises.exercise1.name">下颌线提升</h2>
+                    <p class="exercise-description" data-i18n="page.exercises.exercise1.fullDesc">紧致下颌线条，消除双下巴，塑造完美侧颜</p>
                 </div>
                 
                 <div class="exercise-content">
@@ -189,57 +189,27 @@
                                 <svg class="play-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
                                 <svg class="pause-icon" viewBox="0 0 24 24" style="display:none;"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
                             </button>
-                            <span class="animation-label">动画演示</span>
+                            <span class="animation-label" data-i18n="animation.play">动画演示</span>
                         </div>
                     </div>
                     
                     <div class="exercise-instructions">
-                        <h3>练习步骤</h3>
-                        <ol class="steps-list">
-                            <li>
-                                <span class="step-number">1</span>
-                                <div class="step-content">
-                                    <strong>准备姿势</strong>
-                                    <p>坐直或站立，肩膀放松，头部保持正中位置。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">2</span>
-                                <div class="step-content">
-                                    <strong>下巴上扬</strong>
-                                    <p>缓慢将下巴向上抬起，感受颈部前侧的拉伸，保持5秒。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">3</span>
-                                <div class="step-content">
-                                    <strong>嘴唇嘟起</strong>
-                                    <p>将嘴唇向前嘟起，像吹口哨一样，感受下颌肌肉的收缩。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">4</span>
-                                <div class="step-content">
-                                    <strong>按摩配合</strong>
-                                    <p>用手指从下巴向耳朵方向轻轻按摩，帮助淋巴排毒。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">5</span>
-                                <div class="step-content">
-                                    <strong>重复练习</strong>
-                                    <p>每个动作重复10-15次，每天练习2-3组。</p>
-                                </div>
-                            </li>
+                        <h3 data-i18n="page.exercises.stepsTitle">练习步骤</h3>
+                        <ol class="steps-list" id="ex1-steps">
+                            <li data-step="0"><span class="step-number">1</span><div class="step-content"><strong data-step-title="0">准备姿势</strong><p data-step-content="0">坐直或站立，肩膀放松，头部保持正中位置。</p></div></li>
+                            <li data-step="1"><span class="step-number">2</span><div class="step-content"><strong data-step-title="1">下巴上扬</strong><p data-step-content="1">缓慢将下巴向上抬起，感受颈部前侧的拉伸，保持5秒。</p></div></li>
+                            <li data-step="2"><span class="step-number">3</span><div class="step-content"><strong data-step-title="2">嘴唇嘟起</strong><p data-step-content="2">将嘴唇向前嘟起，像吹口哨一样，感受下颌肌肉的收缩。</p></div></li>
+                            <li data-step="3"><span class="step-number">4</span><div class="step-content"><strong data-step-title="3">按摩配合</strong><p data-step-content="3">用手指从下巴向耳朵方向轻轻按摩，帮助淋巴排毒。</p></div></li>
+                            <li data-step="4"><span class="step-number">5</span><div class="step-content"><strong data-step-title="4">重复练习</strong><p data-step-content="4">每个动作重复10-15次，每天练习2-3组。</p></div></li>
                         </ol>
                         
                         <div class="exercise-tips">
-                            <h4>💡 小贴士</h4>
-                            <ul>
-                                <li>练习时保持呼吸平稳</li>
-                                <li>动作要缓慢、有控制</li>
-                                <li>配合按摩效果更佳</li>
-                                <li>坚持4-6周可见明显效果</li>
+                            <h4 data-i18n="animation.tip">💡 小贴士</h4>
+                            <ul id="ex1-tips">
+                                <li data-tip="0">练习时保持呼吸平稳</li>
+                                <li data-tip="1">动作要缓慢、有控制</li>
+                                <li data-tip="2">配合按摩效果更佳</li>
+                                <li data-tip="3">坚持4-6周可见明显效果</li>
                             </ul>
                         </div>
                     </div>
@@ -250,11 +220,11 @@
             <section id="forehead" class="exercise-section" aria-labelledby="ex2-title">
                 <div class="exercise-header">
                     <div class="exercise-meta">
-                        <span class="exercise-level beginner">初级</span>
-                        <span class="exercise-duration">3分钟</span>
+                        <span class="exercise-level beginner" data-i18n="page.exercises.exercise2.level">初级</span>
+                        <span class="exercise-duration" data-i18n="page.exercises.exercise2.duration">3分钟</span>
                     </div>
-                    <h2 id="ex2-title" class="exercise-title">额头抚平</h2>
-                    <p class="exercise-description">减少额头皱纹，提升眉眼，展现年轻神采</p>
+                    <h2 id="ex2-title" class="exercise-title" data-i18n="page.exercises.exercise2.name">额头抚平</h2>
+                    <p class="exercise-description" data-i18n="page.exercises.exercise2.fullDesc">减少额头皱纹，提升眉眼，展现年轻神采</p>
                 </div>
                 
                 <div class="exercise-content">
@@ -314,49 +284,25 @@
                                 <svg class="play-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
                                 <svg class="pause-icon" viewBox="0 0 24 24" style="display:none;"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
                             </button>
-                            <span class="animation-label">动画演示</span>
+                            <span class="animation-label" data-i18n="animation.play">动画演示</span>
                         </div>
                     </div>
                     
                     <div class="exercise-instructions">
-                        <h3>练习步骤</h3>
-                        <ol class="steps-list">
-                            <li>
-                                <span class="step-number">1</span>
-                                <div class="step-content">
-                                    <strong>放松额头</strong>
-                                    <p>将双手手指放在额头上，轻轻按压。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">2</span>
-                                <div class="step-content">
-                                    <strong>向外抚平</strong>
-                                    <p>从眉心向太阳穴方向轻轻抚平，重复10次。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">3</span>
-                                <div class="step-content">
-                                    <strong>眉毛提升</strong>
-                                    <p>用手指按住眉毛下方，向上轻轻提拉，保持5秒。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">4</span>
-                                <div class="step-content">
-                                    <strong>额头拉伸</strong>
-                                    <p>双手交叉放在额头，向后轻轻拉伸头皮。</p>
-                                </div>
-                            </li>
+                        <h3 data-i18n="page.exercises.stepsTitle">练习步骤</h3>
+                        <ol class="steps-list" id="ex2-steps">
+                            <li data-step="0"><span class="step-number">1</span><div class="step-content"><strong data-step-title="0">放松额头</strong><p data-step-content="0">将双手手指放在额头上，轻轻按压。</p></div></li>
+                            <li data-step="1"><span class="step-number">2</span><div class="step-content"><strong data-step-title="1">向外抚平</strong><p data-step-content="1">从眉心向太阳穴方向轻轻抚平，重复10次。</p></div></li>
+                            <li data-step="2"><span class="step-number">3</span><div class="step-content"><strong data-step-title="2">眉毛提升</strong><p data-step-content="2">用手指按住眉毛下方，向上轻轻提拉，保持5秒。</p></div></li>
+                            <li data-step="3"><span class="step-number">4</span><div class="step-content"><strong data-step-title="3">额头拉伸</strong><p data-step-content="3">双手交叉放在额头，向后轻轻拉伸头皮。</p></div></li>
                         </ol>
                         
                         <div class="exercise-tips">
-                            <h4>💡 小贴士</h4>
-                            <ul>
-                                <li>避免用力过猛拉扯皮肤</li>
-                                <li>使用按摩油或面霜减少摩擦</li>
-                                <li>早晚各做一次效果最佳</li>
+                            <h4 data-i18n="animation.tip">💡 小贴士</h4>
+                            <ul id="ex2-tips">
+                                <li data-tip="0">避免用力过猛拉扯皮肤</li>
+                                <li data-tip="1">使用按摩油或面霜减少摩擦</li>
+                                <li data-tip="2">早晚各做一次效果最佳</li>
                             </ul>
                         </div>
                     </div>
@@ -367,11 +313,11 @@
             <section id="cheeks" class="exercise-section" aria-labelledby="ex3-title">
                 <div class="exercise-header">
                     <div class="exercise-meta">
-                        <span class="exercise-level intermediate">中级</span>
-                        <span class="exercise-duration">4分钟</span>
+                        <span class="exercise-level intermediate" data-i18n="page.exercises.exercise3.level">中级</span>
+                        <span class="exercise-duration" data-i18n="page.exercises.exercise3.duration">4分钟</span>
                     </div>
-                    <h2 id="ex3-title" class="exercise-title">苹果肌塑形</h2>
-                    <p class="exercise-description">提升面部中部，恢复年轻饱满的苹果肌</p>
+                    <h2 id="ex3-title" class="exercise-title" data-i18n="page.exercises.exercise3.name">苹果肌塑形</h2>
+                    <p class="exercise-description" data-i18n="page.exercises.exercise3.fullDesc">提升面部中部，恢复年轻饱满的苹果肌</p>
                 </div>
                 
                 <div class="exercise-content">
@@ -420,49 +366,25 @@
                                 <svg class="play-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
                                 <svg class="pause-icon" viewBox="0 0 24 24" style="display:none;"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
                             </button>
-                            <span class="animation-label">动画演示</span>
+                            <span class="animation-label" data-i18n="animation.play">动画演示</span>
                         </div>
                     </div>
                     
                     <div class="exercise-instructions">
-                        <h3>练习步骤</h3>
-                        <ol class="steps-list">
-                            <li>
-                                <span class="step-number">1</span>
-                                <div class="step-content">
-                                    <strong>微笑练习</strong>
-                                    <p>嘴角上扬，露出牙齿微笑，保持10秒。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">2</span>
-                                <div class="step-content">
-                                    <strong>吹气鼓腮</strong>
-                                    <p>闭嘴吹气，让空气在口腔中左右移动，锻炼脸颊肌肉。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">3</span>
-                                <div class="step-content">
-                                    <strong>手指提拉</strong>
-                                    <p>用手指从嘴角向太阳穴方向轻轻提拉按摩。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">4</span>
-                                <div class="step-content">
-                                    <strong>鱼嘴动作</strong>
-                                    <p>嘟起嘴唇，像鱼嘴一样，感受脸颊肌肉的收缩。</p>
-                                </div>
-                            </li>
+                        <h3 data-i18n="page.exercises.stepsTitle">练习步骤</h3>
+                        <ol class="steps-list" id="ex3-steps">
+                            <li data-step="0"><span class="step-number">1</span><div class="step-content"><strong data-step-title="0">微笑练习</strong><p data-step-content="0">嘴角上扬，露出牙齿微笑，保持10秒。</p></div></li>
+                            <li data-step="1"><span class="step-number">2</span><div class="step-content"><strong data-step-title="1">吹气鼓腮</strong><p data-step-content="1">闭嘴吹气，让空气在口腔中左右移动，锻炼脸颊肌肉。</p></div></li>
+                            <li data-step="2"><span class="step-number">3</span><div class="step-content"><strong data-step-title="2">手指提拉</strong><p data-step-content="2">用手指从嘴角向太阳穴方向轻轻提拉按摩。</p></div></li>
+                            <li data-step="3"><span class="step-number">4</span><div class="step-content"><strong data-step-title="3">鱼嘴动作</strong><p data-step-content="3">嘟起嘴唇，像鱼嘴一样，感受脸颊肌肉的收缩。</p></div></li>
                         </ol>
                         
                         <div class="exercise-tips">
-                            <h4>💡 小贴士</h4>
-                            <ul>
-                                <li>配合面部按摩霜效果更好</li>
-                                <li>动作要轻柔，避免拉扯皮肤</li>
-                                <li>坚持练习可改善面部下垂</li>
+                            <h4 data-i18n="animation.tip">💡 小贴士</h4>
+                            <ul id="ex3-tips">
+                                <li data-tip="0">配合面部按摩霜效果更好</li>
+                                <li data-tip="1">动作要轻柔，避免拉扯皮肤</li>
+                                <li data-tip="2">坚持练习可改善面部下垂</li>
                             </ul>
                         </div>
                     </div>
@@ -473,11 +395,11 @@
             <section id="eyes" class="exercise-section" aria-labelledby="ex4-title">
                 <div class="exercise-header">
                     <div class="exercise-meta">
-                        <span class="exercise-level beginner">初级</span>
-                        <span class="exercise-duration">3分钟</span>
+                        <span class="exercise-level beginner" data-i18n="page.exercises.exercise4.level">初级</span>
+                        <span class="exercise-duration" data-i18n="page.exercises.exercise4.duration">3分钟</span>
                     </div>
-                    <h2 id="ex4-title" class="exercise-title">眼部舒缓</h2>
-                    <p class="exercise-description">消除眼袋和黑眼圈，让双眼焕发光彩</p>
+                    <h2 id="ex4-title" class="exercise-title" data-i18n="page.exercises.exercise4.name">眼部舒缓</h2>
+                    <p class="exercise-description" data-i18n="page.exercises.exercise4.fullDesc">消除眼袋和黑眼圈，让双眼焕发光彩</p>
                 </div>
                 
                 <div class="exercise-content">
@@ -542,50 +464,26 @@
                                 <svg class="play-icon" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
                                 <svg class="pause-icon" viewBox="0 0 24 24" style="display:none;"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
                             </button>
-                            <span class="animation-label">动画演示</span>
+                            <span class="animation-label" data-i18n="animation.play">动画演示</span>
                         </div>
                     </div>
                     
                     <div class="exercise-instructions">
-                        <h3>练习步骤</h3>
-                        <ol class="steps-list">
-                            <li>
-                                <span class="step-number">1</span>
-                                <div class="step-content">
-                                    <strong>眼球运动</strong>
-                                    <p>闭眼，眼球顺时针转动10圈，再逆时针转动10圈。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">2</span>
-                                <div class="step-content">
-                                    <strong>热敷眼部</strong>
-                                    <p>用温热毛巾敷眼3分钟，促进血液循环。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">3</span>
-                                <div class="step-content">
-                                    <strong>指压按摩</strong>
-                                    <p>用无名指轻轻按压眼周穴位，从内眼角向外眼角。</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="step-number">4</span>
-                                <div class="step-content">
-                                    <strong>眨眼练习</strong>
-                                    <p>快速眨眼30次，然后闭眼休息10秒。</p>
-                                </div>
-                            </li>
+                        <h3 data-i18n="page.exercises.stepsTitle">练习步骤</h3>
+                        <ol class="steps-list" id="ex4-steps">
+                            <li data-step="0"><span class="step-number">1</span><div class="step-content"><strong data-step-title="0">眼球运动</strong><p data-step-content="0">闭眼，眼球顺时针转动10圈，再逆时针转动10圈。</p></div></li>
+                            <li data-step="1"><span class="step-number">2</span><div class="step-content"><strong data-step-title="1">热敷眼部</strong><p data-step-content="1">用温热毛巾敷眼3分钟，促进血液循环。</p></div></li>
+                            <li data-step="2"><span class="step-number">3</span><div class="step-content"><strong data-step-title="2">指压按摩</strong><p data-step-content="2">用无名指轻轻按压眼周穴位，从内眼角向外眼角。</p></div></li>
+                            <li data-step="3"><span class="step-number">4</span><div class="step-content"><strong data-step-title="3">眨眼练习</strong><p data-step-content="3">快速眨眼30次，然后闭眼休息10秒。</p></div></li>
                         </ol>
                         
                         <div class="exercise-tips">
-                            <h4>💡 小贴士</h4>
-                            <ul>
-                                <li>保证充足睡眠是基础</li>
-                                <li>使用眼霜配合按摩效果更佳</li>
-                                <li>减少电子屏幕使用时间</li>
-                                <li>多喝水，保持皮肤水分</li>
+                            <h4 data-i18n="animation.tip">💡 小贴士</h4>
+                            <ul id="ex4-tips">
+                                <li data-tip="0">保证充足睡眠是基础</li>
+                                <li data-tip="1">使用眼霜配合按摩效果更佳</li>
+                                <li data-tip="2">减少电子屏幕使用时间</li>
+                                <li data-tip="3">多喝水，保持皮肤水分</li>
                             </ul>
                         </div>
                     </div>
@@ -627,6 +525,54 @@
                 }
             });
         });
+
+        // Extended i18n for exercises page
+        (function() {
+            window.addEventListener('load', function() {
+                if (window.i18n && window.i18n.translations) {
+                    applyExercisesTranslations();
+                }
+            });
+            
+            window.addEventListener('languageChanged', function() {
+                applyExercisesTranslations();
+            });
+            
+            function applyExercisesTranslations() {
+                const t = window.i18n.translations;
+                if (!t || !t.page || !t.page.exercises) return;
+                
+                const ex = t.page.exercises;
+                
+                // Apply steps and tips for each exercise
+                for (let i = 1; i <= 4; i++) {
+                    const exKey = 'exercise' + i;
+                    const stepsList = document.getElementById('ex' + i + '-steps');
+                    const tipsList = document.getElementById('ex' + i + '-tips');
+                    
+                    if (stepsList && ex[exKey] && ex[exKey].steps) {
+                        const steps = ex[exKey].steps;
+                        stepsList.querySelectorAll('li').forEach((li, index) => {
+                            if (steps[index]) {
+                                const titleEl = li.querySelector('[data-step-title]');
+                                const contentEl = li.querySelector('[data-step-content]');
+                                if (titleEl) titleEl.textContent = steps[index].title;
+                                if (contentEl) contentEl.textContent = steps[index].content;
+                            }
+                        });
+                    }
+                    
+                    if (tipsList && ex[exKey] && ex[exKey].tips) {
+                        const tips = ex[exKey].tips;
+                        tipsList.querySelectorAll('li').forEach((li, index) => {
+                            if (tips[index]) {
+                                li.textContent = tips[index];
+                            }
+                        });
+                    }
+                }
+            }
+        })();
     </script>
 </body>
 </html>

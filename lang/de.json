@@ -5,6 +5,85 @@
   "exercises": { "title": "Beliebte Übungen", "subtitle": "Professionelles Training für verschiedene Gesichtsbereiche", "viewAll": "Alle Anzeigen", "exercise1": { "name": "Kieferlinien-Straffung", "duration": "5 Min", "level": "Anfänger", "desc": "Kieferlinie definieren, Doppelkinn reduzieren" }, "exercise2": { "name": "Stirnglättung", "duration": "3 Min", "level": "Anfänger", "desc": "Stirnfalten reduzieren, Augenbrauen heben" }, "exercise3": { "name": "Wangenmodellierung", "duration": "4 Min", "level": "Mittelstufe", "desc": "Mittelgesicht anheben" }, "exercise4": { "name": "Augenverjüngung", "duration": "3 Min", "level": "Anfänger", "desc": "Tränensäcke und dunkle Augenringe reduzieren" } },
   "steps": { "title": "Wie man anfängt", "step1": { "title": "Übung Wählen", "desc": "Wählen Sie Gesichtsyoga nach Ihren Bedürfnissen" }, "step2": { "title": "Animation Ansehen", "desc": "Folgen Sie detaillierten animierten Demonstrationen" }, "step3": { "title": "Täglich Üben", "desc": "Sichtbare Ergebnisse in 4-6 Wochen" } },
   "footer": { "rights": "Alle Rechte vorbehalten", "privacy": "Datenschutzrichtlinie", "terms": "Nutzungsbedingungen", "contact": "Kontakt" },
-  "page": { "exercises": { "title": "Gesichtsyoga-Übungen", "subtitle": "Wissenschaftlich konzipiertes Gesichtsmuskeltraining" }, "massage": { "title": "Gesichtsmassage-Techniken", "subtitle": "Professionelle Fähigkeiten zur Förderung der Durchblutung" }, "jawline": { "title": "Kieferlinien-Programm", "subtitle": "Spezialisiertes Trainingsprogramm" } },
+  "page": {
+    "exercises": {
+      "title": "Gesichts-Yoga-Übungen",
+      "subtitle": "Wissenschaftlich gestaltetes Gesichtsmuskeltraining für natürliches Anti-Aging",
+      "stepsTitle": "Übungsschritte",
+      "exercise1": {
+        "name": "Kieferlinien-Lift",
+        "fullDesc": "Definieren Sie Ihre Kieferlinie, beseitigen Sie Doppelkinn und formen Sie ein perfektes Profil",
+        "level": "Anfänger",
+        "duration": "5 Min",
+        "steps": [
+          {"title": "Ausgangsposition", "content": "Sitzen oder stehen Sie gerade, entspannen Sie die Schultern, halten Sie den Kopf zentriert."},
+          {"title": "Kinn anheben", "content": "Heben Sie das Kinn langsam an, spüren Sie die Dehnung an der Vorderseite des Halses, 5 Sekunden halten."},
+          {"title": "Lippen vorstülpen", "content": "Stülpen Sie die Lippen vor wie zum Pfeifen, spüren Sie die Kontraktion der Kiefermuskulatur."},
+          {"title": "Massage-Kombination", "content": "Massieren Sie sanft vom Kinn zu den Ohren zur Förderung des Lymphabflusses."},
+          {"title": "Wiederholen", "content": "Wiederholen Sie jede Bewegung 10-15 Mal, üben Sie 2-3 Sätze täglich."}
+        ],
+        "tips": [
+          "Atmen Sie während der Übung ruhig und gleichmäßig",
+          "Bewegungen sollten langsam und kontrolliert sein",
+          "Bessere Ergebnisse in Kombination mit Massage",
+          "Sichtbare Ergebnisse in 4-6 Wochen bei Regelmäßigkeit"
+        ]
+      },
+      "exercise2": {
+        "name": "Stirnglättung",
+        "fullDesc": "Reduzieren Sie Stirnfalten, heben Sie die Augenbrauen und erstrahlen Sie jugendlich",
+        "level": "Anfänger",
+        "duration": "3 Min",
+        "steps": [
+          {"title": "Stirn entspannen", "content": "Legen Sie die Fingerspitzen auf die Stirn und drücken Sie sanft."},
+          {"title": "Nach außen streichen", "content": "Streichen Sie sanft von der Mitte der Augenbrauen zu den Schläfen, 10 Mal wiederholen."},
+          {"title": "Brauen-Lift", "content": "Drücken Sie unter den Augenbrauen und heben Sie sanft an, 5 Sekunden halten."},
+          {"title": "Stirn-Streckung", "content": "Kreuzen Sie die Hände auf der Stirn und strecken Sie die Kopfhaut sanft nach hinten."}
+        ],
+        "tips": [
+          "Vermeiden Sie starkes Ziehen an der Haut",
+          "Verwenden Sie Massageöl oder Creme zur Reibungsminderung",
+          "Beste Ergebnisse morgens und abends"
+        ]
+      },
+      "exercise3": {
+        "name": "Wangensculptur",
+        "fullDesc": "Heben Sie die Gesichtsmitte und stellen Sie jugendliche, pralle Wangen wieder her",
+        "level": "Mittelstufe",
+        "duration": "4 Min",
+        "steps": [
+          {"title": "Lächeln-Übung", "content": "Heben Sie die Mundwinkel, zeigen Sie die Zähne und lächeln Sie, 10 Sekunden halten."},
+          {"title": "Wangen aufblasen", "content": "Schließen Sie den Mund und blasen Sie Luft auf, bewegen Sie sie links und rechts."},
+          {"title": "Finger-Lift", "content": "Massieren Sie sanft von den Mundwinkeln zu den Schläfen."},
+          {"title": "Fischgesicht", "content": "Stülpen Sie die Lippen wie ein Fisch vor, spüren Sie die Kontraktion der Wangenmuskulatur."}
+        ],
+        "tips": [
+          "Bessere Ergebnisse mit Gesichtsmassagecreme",
+          "Bewegungen sanft halten, Haut nicht ziehen",
+          "Regelmäßiges Üben verbessert die Gesichtsschlaffheit"
+        ]
+      },
+      "exercise4": {
+        "name": "Augenverjüngung",
+        "fullDesc": "Beseitigen Sie Tränensäcke und dunkle Augenringe für strahlendere Augen",
+        "level": "Anfänger",
+        "duration": "3 Min",
+        "steps": [
+          {"title": "Bewegungsübung", "content": "Schließen Sie die Augen, rollen Sie sie 10 Mal im Uhrzeigersinn, dann gegen den Uhrzeigersinn."},
+          {"title": "Warme Kompresse", "content": "Legen Sie ein warmes Tuch 3 Minuten auf die Augen zur Förderung der Durchblutung."},
+          {"title": "Akupressur-Massage", "content": "Verwenden Sie den Ringfinger, um Akupressurpunkte sanft um die Augen zu drücken."},
+          {"title": "Blinzel-Übung", "content": "Blinzeln Sie 30 Mal schnell, schließen Sie dann die Augen und ruhen Sie 10 Sekunden."}
+        ],
+        "tips": [
+          "Ausreichender Schlaf ist die Grundlage",
+          "Augencreme mit Massage für bessere Ergebnisse",
+          "Bildschirmzeit reduzieren",
+          "Viel Wasser trinken zur Hautpflege"
+        ]
+      }
+    },
+    "massage": { "title": "Gesichtsmassage-Techniken", "subtitle": "Professionelle Fähigkeiten zur Förderung der Durchblutung" },
+    "jawline": { "title": "Kieferlinien-Programm", "subtitle": "Spezialisiertes Trainingsprogramm" }
+  },
   "animation": { "play": "Animation Abspielen", "pause": "Pause", "step": "Schritt", "tip": "Tipp" }
 }
