@@ -315,7 +315,39 @@
     },
     "massage": {
       "title": "Técnicas de Massagem Facial",
-      "subtitle": "Habilidades profissionais para promover circulação"
+      "subtitle": "Habilidades profissionais de massagem para promover a circulação e a elasticidade da pele",
+      "introTitle": "Por Que a Massagem Facial É Tão Importante?",
+      "introDesc": "A massagem facial é um método de beleza antigo e eficaz. Com as técnicas certas, pode:",
+      "benefits": [
+        "Promover a circulação sanguínea e melhorar o tom da pele",
+        "Ajudar na drenagem linfática e reduzir inchaço",
+        "Relaxar os músculos faciais e reduzir rugas",
+        "Melhorar a absorção de produtos para a pele",
+        "Aliviar o estresse e melhorar a qualidade do sono"
+      ],
+      "technique1": {
+        "name": "Massagem de Drenagem Linfática",
+        "desc": "Reduza o inchaço facial, promova a circulação linfática e esculpa um rosto em V",
+        "steps": [
+          { "title": "Preparação", "content": "Limpe o rosto, aplique óleo ou creme de massagem e aqueça as mãos." },
+          { "title": "Massagem no Queixo", "content": "Use as pontas dos dedos para pressionar suavemente do centro do queixo para trás das orelhas, repita 10 vezes." },
+          { "title": "Massagem nas Bochechas", "content": "Pressione dos cantos da boca em direção às têmporas para ajudar o fluxo linfático." },
+          { "title": "Massagem na Testa", "content": "Empurre suavemente do centro das sobrancelhas em direção à linha do cabelo, depois deslize para as têmporas." },
+          { "title": "Drenagem do Pescoço", "content": "Pressione de trás das orelhas para baixo pelo pescoço até a clavícula para completar a drenagem." }
+        ],
+        "tips": [
+          "Use pressão suave, evite puxar a pele",
+          "Melhor fazer antes de dormir",
+          "Melhores resultados com óleos essenciais",
+          "5-10 minutos por sessão é suficiente"
+        ]
+      },
+      "tools": {
+        "title": "Ferramentas de Massagem Recomendadas",
+        "tool1": { "name": "Pedra Gua Sha", "desc": "Ferramenta de beleza tradicional, use com óleos essenciais para promover a circulação" },
+        "tool2": { "name": "Rolo de Massagem", "desc": "Conveniente e fácil de usar, massageie a qualquer momento para reduzir inchaço" },
+        "tool3": { "name": "Rolo de Jade", "desc": "Toque refrescante, acalma a pele e minimiza os poros" }
+      }
     },
     "jawline": {
       "title": "Programa de Linha do Maxilar",

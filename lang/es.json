@@ -315,7 +315,39 @@
     },
     "massage": {
       "title": "Técnicas de Masaje Facial",
-      "subtitle": "Habilidades profesionales para promover circulación"
+      "subtitle": "Habilidades profesionales de masaje para promover la circulación y la elasticidad de la piel",
+      "introTitle": "¿Por Qué Es Tan Importante el Masaje Facial?",
+      "introDesc": "El masaje facial es un método de belleza antiguo y efectivo. Con las técnicas adecuadas, puede:",
+      "benefits": [
+        "Promover la circulación sanguínea y mejorar el tono de la piel",
+        "Ayudar al drenaje linfático y reducir la hinchazón",
+        "Relajar los músculos faciales y reducir arrugas",
+        "Mejorar la absorción de productos para el cuidado de la piel",
+        "Aliviar el estrés y mejorar la calidad del sueño"
+      ],
+      "technique1": {
+        "name": "Masaje de Drenaje Linfático",
+        "desc": "Reduce la hinchazón facial, promueve la circulación linfática y esculpe un rostro en V",
+        "steps": [
+          { "title": "Preparación", "content": "Limpie su rostro, aplique aceite o crema de masaje y caliente las manos." },
+          { "title": "Masaje de Barbilla", "content": "Use las yemas de los dedos para presionar suavemente desde el centro de la barbilla hacia detrás de las orejas, repita 10 veces." },
+          { "title": "Masaje de Mejillas", "content": "Presione desde las comisuras de los labios hacia las sienes para ayudar al flujo linfático." },
+          { "title": "Masaje de Frente", "content": "Empuje suavemente desde el centro de las cejas hacia la línea del cabello, luego deslice hacia las sienes." },
+          { "title": "Drenaje del Cuello", "content": "Presione desde detrás de las orejas hacia abajo por el cuello hasta la clavícula para completar el drenaje linfático." }
+        ],
+        "tips": [
+          "Use presión suave, evite tirar de la piel",
+          "Mejor hacerlo antes de dormir",
+          "Mejores resultados con aceites esenciales",
+          "5-10 minutos por sesión es suficiente"
+        ]
+      },
+      "tools": {
+        "title": "Herramientas de Masaje Recomendadas",
+        "tool1": { "name": "Piedra Gua Sha", "desc": "Herramienta de belleza tradicional, use con aceites esenciales para promover la circulación" },
+        "tool2": { "name": "Rodillo Masajeador", "desc": "Conveniente y fácil de usar, masajee en cualquier momento para reducir la hinchazón" },
+        "tool3": { "name": "Rodillo de Jade", "desc": "Toque refrescante, calma la piel y minimiza los poros" }
+      }
     },
     "jawline": {
       "title": "Programa de Línea Mandibular",

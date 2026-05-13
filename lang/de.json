@@ -314,8 +314,40 @@
       }
     },
     "massage": {
-      "title": "Gesichtsmassage-Techniken",
-      "subtitle": "Professionelle Fähigkeiten zur Förderung der Durchblutung"
+      "title": "Gesichtsmassagetechniken",
+      "subtitle": "Professionelle Massagetechniken zur Förderung der Durchblutung und Hautelastizität",
+      "introTitle": "Warum Ist Gesichtsmassage So Wichtig?",
+      "introDesc": "Gesichtsmassage ist eine alte und wirksame Schönheitsmethode. Mit richtigen Techniken kann sie:",
+      "benefits": [
+        "Blutzirkulation fördern und Hautteint verbessern",
+        "Lymphabfluss unterstützen und Schwellungen reduzieren",
+        "Gesichtsmuskeln entspannen und Falten reduzieren",
+        "Aufnahme von Hautpflegeprodukten verbessern",
+        "Stress abbauen und Schlafqualität verbessern"
+      ],
+      "technique1": {
+        "name": "Lymphdrainage-Massage",
+        "desc": "Gesichtsschwellungen reduzieren, Lymphzirkulation fördern und ein V-förmiges Gesicht formen",
+        "steps": [
+          { "title": "Vorbereitung", "content": "Reinigen Sie Ihr Gesicht, tragen Sie Massageöl oder Creme auf und wärmen Sie die Hände." },
+          { "title": "Kinnmassage", "content": "Verwenden Sie die Fingerspitzen, um sanft vom Kinnzentrum zu den Ohren zu drücken, 10 Mal wiederholen." },
+          { "title": "Wangenmassage", "content": "Drücken Sie von den Mundwinkeln zu den Schläfen, um den Lymphfluss zu unterstützen." },
+          { "title": "Stirnmassage", "content": "Schieben Sie sanft vom Augenbrauenzentrum zur Haargrenze und gleiten Sie zu den Schläfen." },
+          { "title": "Halsdrainage", "content": "Drücken Sie von hinter den Ohren den Hals hinab zum Schlüsselbein, um die Drainage abzuschließen." }
+        ],
+        "tips": [
+          "Sanften Druck verwenden, Haut nicht ziehen",
+          "Am besten vor dem Schlafengehen",
+          "Bessere Ergebnisse mit ätherischen Ölen",
+          "5-10 Minuten pro Sitzung ausreichend"
+        ]
+      },
+      "tools": {
+        "title": "Empfohlene Massagewerkzeuge",
+        "tool1": { "name": "Gua Sha Stein", "desc": "Traditionelles Schönheitstool, mit ätherischen Ölen zur Förderung der Durchblutung" },
+        "tool2": { "name": "Massage-Roller", "desc": "Praktisch und einfach zu bedienen, jederzeit massieren um Schwellungen zu reduzieren" },
+        "tool3": { "name": "Jade-Roller", "desc": "Kühlende Berührung, beruhigt die Haut und minimiert Poren" }
+      }
     },
     "jawline": {
       "title": "Kieferlinien-Programm",

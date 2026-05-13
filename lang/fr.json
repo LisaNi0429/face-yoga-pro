@@ -315,7 +315,39 @@
     },
     "massage": {
       "title": "Techniques de Massage Facial",
-      "subtitle": "Compétences professionnelles pour la circulation"
+      "subtitle": "Techniques professionnelles pour favoriser la circulation et l'élasticité de la peau",
+      "introTitle": "Pourquoi le Massage Facial Est-il Si Important ?",
+      "introDesc": "Le massage facial est une méthode de beauté ancienne et efficace. Avec les bonnes techniques, il peut :",
+      "benefits": [
+        "Favoriser la circulation sanguine et améliorer le teint",
+        "Aider au drainage lymphatique et réduire les gonflements",
+        "Détendre les muscles du visage et réduire les rides",
+        "Améliorer l'absorption des produits de soin",
+        "Soulager le stress et améliorer la qualité du sommeil"
+      ],
+      "technique1": {
+        "name": "Massage de Drainage Lymphatique",
+        "desc": "Réduire les gonflements du visage, favoriser la circulation lymphatique et sculpter un visage en V",
+        "steps": [
+          { "title": "Préparation", "content": "Nettoyez votre visage, appliquez de l'huile ou de la crème de massage et réchauffez vos mains." },
+          { "title": "Massage du Menton", "content": "Utilisez le bout des doigts pour presser doucement du centre du menton vers derrière les oreilles, répétez 10 fois." },
+          { "title": "Massage des Joues", "content": "Pressez des coins de la bouche vers les tempes pour aider le flux lymphatique." },
+          { "title": "Massage du Front", "content": "Poussez doucement du centre des sourcils vers la racine des cheveux, puis glissez vers les tempes." },
+          { "title": "Drainage du Cou", "content": "Pressez de derrière les oreilles vers le bas le long du cou jusqu'à la clavicule pour compléter le drainage." }
+        ],
+        "tips": [
+          "Utilisez une pression douce, évitez de tirer la peau",
+          "Idéal avant le coucher",
+          "Meilleurs résultats avec des huiles essentielles",
+          "5 à 10 minutes par séance suffisent"
+        ]
+      },
+      "tools": {
+        "title": "Outils de Massage Recommandés",
+        "tool1": { "name": "Pierre Gua Sha", "desc": "Outil de beauté traditionnel, utilisez avec des huiles essentielles pour favoriser la circulation" },
+        "tool2": { "name": "Rouleau de Massage", "desc": "Pratique et facile à utiliser, massez n'importe quand pour réduire les gonflements" },
+        "tool3": { "name": "Rouleau de Jade", "desc": "Toucher rafraîchissant, apaise la peau et minimise les pores" }
+      }
     },
     "jawline": {
       "title": "Programme Ligne Mandibulaire",

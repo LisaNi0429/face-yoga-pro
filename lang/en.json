@@ -314,7 +314,39 @@
     },
     "massage": {
       "title": "Facial Massage Techniques",
-      "subtitle": "Professional massage skills to promote circulation and skin elasticity"
+      "subtitle": "Professional massage skills to promote circulation and skin elasticity",
+      "introTitle": "Why Is Facial Massage So Important?",
+      "introDesc": "Facial massage is an ancient and effective beauty method. With proper techniques, it can:",
+      "benefits": [
+        "Promote blood circulation and improve skin tone",
+        "Help lymphatic drainage and reduce puffiness",
+        "Relax facial muscles and reduce wrinkles",
+        "Enhance skincare product absorption",
+        "Relieve stress and improve sleep quality"
+      ],
+      "technique1": {
+        "name": "Lymphatic Drainage Massage",
+        "desc": "Reduce facial puffiness, promote lymphatic circulation, and sculpt a V-shaped face",
+        "steps": [
+          { "title": "Preparation", "content": "Cleanse your face, apply massage oil or cream, and warm up your hands." },
+          { "title": "Chin Massage", "content": "Use fingertips to gently press from the center of your chin toward behind the ears, repeat 10 times." },
+          { "title": "Cheek Massage", "content": "Press from the corners of your mouth toward the temples to help lymphatic flow." },
+          { "title": "Forehead Massage", "content": "Gently push from the center of your brows toward the hairline, then slide to the temples." },
+          { "title": "Neck Drainage", "content": "Press from behind the ears down the neck to the collarbone to complete lymphatic drainage." }
+        ],
+        "tips": [
+          "Use gentle pressure, avoid pulling the skin",
+          "Best done before bedtime",
+          "Better results with essential oils",
+          "5-10 minutes per session is sufficient"
+        ]
+      },
+      "tools": {
+        "title": "Recommended Massage Tools",
+        "tool1": { "name": "Gua Sha Board", "desc": "Traditional beauty tool, use with essential oils to promote blood circulation" },
+        "tool2": { "name": "Roller Massager", "desc": "Convenient and easy to use, massage anytime to reduce facial puffiness" },
+        "tool3": { "name": "Jade Roller", "desc": "Cooling touch, calms the skin and minimizes pores" }
+      }
     },
     "jawline": {
       "title": "Jawline Lift Program",
